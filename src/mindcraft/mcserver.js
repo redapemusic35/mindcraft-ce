@@ -20,7 +20,8 @@ export async function serverInfo(ip, port, timeout = 1000, verbose = false) {
 
         mc.ping({
             host: ip,
-            port
+            port,
+            version: '1.21.4'
         }, (err, response) => {
             clearTimeout(timeoutId);
 
@@ -82,7 +83,7 @@ export async function findServers(ip, earlyExit = false, timeout = 100) {
     // TODO: find a better way to do this, it supresses other useful output
     const originalConsoleLog = console.log;
     console.log = () => { };
-    
+
     for (let port = startPort; port <= endPort; port++) {
         const openPort = await checkPort(port);
         if (openPort) {
@@ -112,12 +113,12 @@ export async function getServer(host, port, version) {
     let server = null;
     let serverString = "";
     let serverVersion = "";
-    
+
     // Search for server
     if (port == -1)
     {
         console.log(`No port provided. Searching for LAN server on host ${host}...`);
-        
+
         await findServers(host, true).then((servers) => {
             if (servers.length > 0)
                 server = servers[0];
@@ -130,17 +131,17 @@ export async function getServer(host, port, version) {
         server = await serverInfo(host, port, 1000, true);
 
     // Server not found
-    if (server == null) 
+    if (server == null)
         throw new Error(`MC server not found. (Host: ${host}, Port: ${port}) Check the host and port in settings.js, and ensure the server is running and open to public or LAN.`);
 
     serverString = `(Host: ${server.host}, Port: ${server.port}, Version: ${server.version})`;
 
-    if (version === "auto") 
+    if (version === "auto")
         serverVersion = server.version;
     else
         serverVersion = version;
     // Server version unsupported / mismatch
-    const isSupported = mc.supportedVersions.some(v => 
+    const isSupported = mc.supportedVersions.some(v =>
         serverVersion === v || (serverVersion.startsWith(v) && serverVersion.charAt(v.length) === '.')
     ); // Checks version or parent version (e.g. if 1.7 is supported then 1.7.2 will be allowed)
      if (!isSupported)

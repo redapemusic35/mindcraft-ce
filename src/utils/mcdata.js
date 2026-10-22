@@ -95,11 +95,11 @@ export function initBot(username) {
         host: settings.host,
         port: settings.port,
         auth: settings.auth,
-        version: mc_version,
+        version: settings.minecraft_version,
         checkTimeoutInterval: 60000,  // 60s keep-alive check (default 30s) — reduces disconnects on slow servers
     }
-    if (!mc_version || mc_version === "auto") {
-        delete options.version;
+    if (!settings.minecraft_version || settings.minecraft_version === "auto") {
+    delete options.version;
     }
 
     const bot = createBot(options);
@@ -350,7 +350,7 @@ export function getFuelSmeltOutput(fuelName) {
 }
 
 export function getItemSmeltingIngredient(itemName) {
-    return {    
+    return {
         baked_potato: 'potato',
         steak: 'raw_beef',
         cooked_chicken: 'raw_chicken',
@@ -379,7 +379,7 @@ export function getItemBlockSources(itemName) {
 }
 
 export function getItemAnimalSource(itemName) {
-    return {    
+    return {
         raw_beef: 'cow',
         raw_chicken: 'chicken',
         raw_cod: 'cod',
@@ -406,7 +406,7 @@ export function makeItem(name, amount=1) {
 
 /**
  * Returns the number of ingredients required to use the recipe once.
- * 
+ *
  * @param {Recipe} recipe
  * @returns {Object<mc.ItemName, number>} an object describing the number of each ingredient.
  */
@@ -532,7 +532,7 @@ function craftItem(item, count, inventory, leftovers, crafted = { required: {}, 
         // Use leftovers first, then inventory
         const useFromLeft = Math.min(availableLeft, count);
         leftovers[item] = availableLeft - useFromLeft;
-        
+
         const remainingNeeded = count - useFromLeft;
         if (remainingNeeded > 0) {
             inventory[item] = availableInv - remainingNeeded;
@@ -586,7 +586,7 @@ function formatPlan(targetItem, { required, steps, leftovers }) {
 
     if (Object.keys(required).length > 0) {
         lines.push('You are missing the following items:');
-        Object.entries(required).forEach(([item, count]) => 
+        Object.entries(required).forEach(([item, count]) =>
             lines.push(`- ${count} ${item}`));
         lines.push('\nOnce you have these items, here\'s your crafting plan:');
     } else {
@@ -603,7 +603,7 @@ function formatPlan(targetItem, { required, steps, leftovers }) {
 
     if (Object.keys(leftovers).length > 0) {
         lines.push('\nYou will have leftover:');
-        Object.entries(leftovers).forEach(([item, count]) => 
+        Object.entries(leftovers).forEach(([item, count]) =>
             lines.push(`- ${count} ${item}`));
     }
 

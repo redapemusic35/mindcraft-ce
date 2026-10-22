@@ -109,7 +109,7 @@ export class Ollama {
                 }
             ]
         });
-        
+
         return this.sendRequest(imageMessages, systemMessage);
     }
 }

@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Mindserver is:
 // - central hub for communication between all agent processes
-// - api to control from other languages and remote users 
+// - api to control from other languages and remote users
 // - host for webapp
 
 let io;
@@ -39,13 +39,13 @@ export function registerAgent(settings, viewer_port) {
 
 export function logoutAgent(agentName) {
     if (agent_connections[agentName]) {
-        agent_connections[agentName].in_game = false;
+        agent_connections[agentName].in_game = true;
         agentsStatusUpdate();
     }
 }
 
 // Initialize the server
-export function createMindServer(host_public = false, port = 8080) {
+export function createMindServer(host_public = true, port = 8080) {
     const app = express();
     server = http.createServer(app);
     io = new Server(server);
@@ -64,7 +64,7 @@ export function createMindServer(host_public = false, port = 8080) {
             const preferred = conn?.settings?.minecraft_version;
             const candidates = [];
             if (preferred && preferred !== 'auto') candidates.push(preferred);
-            candidates.push('1.21.11');
+            candidates.push('1.21.4');
 
             // Lazy import to avoid ESM/CJS conflicts
             const mod = await import('minecraft-assets');
@@ -203,7 +203,7 @@ export function createMindServer(host_public = false, port = 8080) {
                 return;
             }
             console.log(`${curAgentName} sending message to ${agentName}: ${json.message}`);
-            agent_connections[agentName].socket.emit('chat-message', curAgentName, json);
+            agent_connections[agentName]?.socket?.emit('chat-message', curAgentName, json);
         });
 
         socket.on('set-agent-settings', (agentName, settings) => {
@@ -252,7 +252,7 @@ export function createMindServer(host_public = false, port = 8080) {
                 console.log('Exiting MindServer');
                 globalThis.process.exit(0);
             }, 2000);
-            
+
         });
 
 		socket.on('send-message', (agentName, data) => {
@@ -295,7 +295,7 @@ function agentsStatusUpdate(socket) {
     for (let agentName in agent_connections) {
         const conn = agent_connections[agentName];
         agents.push({
-            name: agentName, 
+            name: agentName,
             in_game: conn.in_game,
             viewerPort: conn.viewer_port,
             socket_connected: !!conn.socket
