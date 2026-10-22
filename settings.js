@@ -1,13 +1,24 @@
 const settings = {
+<<<<<<< HEAD
     "minecraft_version": "1.21.4", // or specific version like "1.21.11"
     "host": "127.0.0.1", // or "localhost", "your.ip.address.here"
     "port": 25565, // set to -1 to automatically scan for open ports
+=======
+    "minecraft_version": "1.21.11",
+    "host": "127.0.0.1",
+    "port": 55917, // local test server
+>>>>>>> 0ac4a5844ff1a1839d5cfb2362a2c8e302e02edb
     "auth": "offline", // or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
     "mindserver_port": 8080,
+<<<<<<< HEAD
     "auto_open_ui": true, // opens UI in browser on startup
 
+=======
+    "auto_open_ui": false, // opens UI in browser on startup
+    
+>>>>>>> 0ac4a5844ff1a1839d5cfb2362a2c8e302e02edb
     "base_profile": "assistant", // survival, assistant, creative, or god_mode
     "profiles": [
         "./andy.json",
