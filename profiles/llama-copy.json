@@ -1,0 +1,6 @@
+{
+    "name": "llama_local",
+    "model": "ollama/llama3.2:3b",
+    "embedding": "ollama/nomic-embed-text"
+
+}

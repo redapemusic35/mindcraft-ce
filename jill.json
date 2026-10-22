@@ -1,0 +1,8 @@
+{
+    "name": "jill",
+    "model": {
+          "api": "gemini",
+          "model": "google/gemini-flash-latest"
+  },
+    "embedding": "google"
+}

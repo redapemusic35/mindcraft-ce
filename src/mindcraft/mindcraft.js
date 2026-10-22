@@ -9,7 +9,7 @@ let agent_processes = {};
 let agent_count = 0;
 let mindserver_port = 8080;
 
-export async function init(host_public=false, port=8080, auto_open_ui=true) {
+export async function init(host_public=true, port=8080, auto_open_ui=true) {
     if (connected) {
         console.error('Already initiliazed!');
         return;
@@ -40,7 +40,7 @@ export async function createAgent(settings) {
     const agentIndex = agent_count++;
     const viewer_port = 3000 + agentIndex;
     registerAgent(settings, viewer_port);
-    let load_memory = settings.load_memory || false;
+    let load_memory = settings.load_memory || true;
     let init_message = settings.init_message || null;
 
     try {

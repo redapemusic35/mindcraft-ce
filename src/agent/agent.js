@@ -29,7 +29,7 @@ export class Agent {
         this.prompter = new Prompter(this, settings.profile);
         this.name = (this.prompter.getName() || '').trim();
         console.log(`Initializing agent ${this.name}...`);
-        
+
         // Validate Name Format
         // connection_handler now ensures the message has [LoginGuard] prefix
         const nameCheck = validateNameFormat(this.name);
@@ -38,7 +38,7 @@ export class Agent {
             process.exit(1);
             return;
         }
-        
+
         this.history = new History(this);
         this.coder = new Coder(this);
         this.npc = new NPCContoller(this);
@@ -64,7 +64,7 @@ export class Agent {
 
         console.log(this.name, 'logging into minecraft...');
         this.bot = initBot(this.name);
-        
+
         // Connection Handler
         const onDisconnect = (event, reason) => {
             if (this._disconnectHandled) return;
@@ -73,10 +73,10 @@ export class Agent {
             // Log and Analyze
             // handleDisconnection handles logging to console and server
             const { type } = handleDisconnection(this.name, reason);
-     
+
             process.exit(1);
         };
-        
+
         // Bind events
         this.bot.once('kicked', (reason) => onDisconnect('Kicked', reason));
         this.bot.once('end', (reason) => onDisconnect('Disconnected', reason));
@@ -93,7 +93,7 @@ export class Agent {
         this.bot.on('login', () => {
             console.log(this.name, 'logged in!');
             serverProxy.login();
-            
+
             // Set skin for profile, requires Fabric Tailor. (https://modrinth.com/mod/fabrictailor)
             if (this.prompter.profile.skin)
                 this.bot.chat(`/skin set URL ${this.prompter.profile.skin.model} ${this.prompter.profile.skin.path}`);
@@ -115,13 +115,13 @@ export class Agent {
 
                 // wait for a bit so stats are not undefined
                 await new Promise((resolve) => setTimeout(resolve, 1000));
-                
+
                 console.log(`${this.name} spawned.`);
                 this.clearBotLogs();
-              
+
                 this._setupEventHandlers(save_data, init_message);
                 this.startEvents();
-              
+
                 if (!load_mem) {
                     if (settings.task) {
                         this.task.initBotTask();
@@ -153,7 +153,7 @@ export class Agent {
             "Set the weather to",
             "Gamerule "
         ];
-        
+
         const respondFunc = async (username, message) => {
             if (message === "") return;
             if (username === this.name) return;
@@ -180,7 +180,7 @@ export class Agent {
 		this.respondFunc = respondFunc;
 
         this.bot.on('whisper', respondFunc);
-        
+
         this.bot.on('chat', (username, message) => {
             if (serverProxy.getNumOtherAgents() > 0) return;
             // only respond to open chat messages when there are no other agents
@@ -284,7 +284,7 @@ export class Agent {
                     this.history.add(source, message);
                 }
                 let execute_res = await executeCommand(this, message);
-                if (execute_res) 
+                if (execute_res)
                     this.routeResponse(source, execute_res);
                 return true;
             }
@@ -298,7 +298,7 @@ export class Agent {
         console.log('received message from', source, ':', message);
 
         const checkInterrupt = () => this.self_prompter.shouldInterrupt(self_prompt) || this.shut_up || convoManager.responseScheduledFor(source);
-        
+
         let behavior_log = this.bot.modes.flushBehaviorLog().trim();
         if (behavior_log.length > 0) {
             const MAX_LOG = 500;
@@ -332,7 +332,7 @@ export class Agent {
             if (command_name) { // contains query or command
                 res = truncCommandMessage(res); // everything after the command is ignored
                 this.history.add(this.name, res);
-                
+
                 if (!commandExists(command_name)) {
                     this.history.add('system', `Command ${command_name} does not exist.`);
                     console.warn('Agent hallucinated command:', command_name)
@@ -375,7 +375,7 @@ export class Agent {
                 this.routeResponse(source, res);
                 break;
             }
-            
+
             this.history.save();
         }
 
@@ -527,7 +527,7 @@ export class Agent {
     isIdle() {
         return !this.actions.executing;
     }
-    
+
 
     cleanKill(msg='Killing agent process...', code=1) {
         this.history.add('system', msg);

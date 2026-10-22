@@ -1,0 +1,5 @@
+{
+    "name": "Mistral_Local",
+    "model": "ollama/mistral:latest",
+    "embedding": "ollama/nomic-embed-text"
+}

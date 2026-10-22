@@ -10,7 +10,7 @@ export class DeepSeek {
 
         let config = {};
 
-        config.baseURL = url || 'https://api.deepseek.com';
+        config.baseURL = url || '127.0.0.1:11434';
         config.apiKey = getKey('DEEPSEEK_API_KEY');
 
         this.openai = new OpenAIApi(config);
@@ -34,7 +34,7 @@ export class DeepSeek {
             // console.log('Messages:', messages);
             let completion = await this.openai.chat.completions.create(pack);
             if (completion.choices[0].finish_reason == 'length')
-                throw new Error('Context length exceeded'); 
+                throw new Error('Context length exceeded');
             console.log('Received.')
             res = completion.choices[0].message.content;
         }

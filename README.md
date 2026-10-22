@@ -6,14 +6,14 @@
 <p align="center">The experimental version of <a href="https://github.com/mindcraft-bots/mindcraft">Mindcraft!</a>
 
 <p align="center">
-  <a href="docs/FAQ.md#common-issues">FAQ</a> | 
-  <a href="https://discord.gg/mindcraft-ce">Discord Support</a> | 
-  <a href="https://mindcraft-ce.com">Website</a> | 
+  <a href="docs/FAQ.md#common-issues">FAQ</a> |
+  <a href="https://discord.gg/mindcraft-ce">Discord Support</a> |
+  <a href="https://mindcraft-ce.com">Website</a> |
   <a href="https://andy.mindcraft-ce.com">Andy API</a>
 <br>
-  <a href="https://www.youtube.com/watch?v=gRotoL8P8D8">Video Tutorial</a> | 
-  <a href="https://kolbynottingham.com/mindcraft/">Blog Post</a> | 
-  <a href="https://mindcraft-minecollab.github.io/index.html">Paper Website</a> | 
+  <a href="https://www.youtube.com/watch?v=gRotoL8P8D8">Video Tutorial</a> |
+  <a href="https://kolbynottingham.com/mindcraft/">Blog Post</a> |
+  <a href="https://mindcraft-minecollab.github.io/index.html">Paper Website</a> |
   <a href="https://github.com/mindcraft-bots/mindcraft/blob/main/minecollab.md">MineCollab</a>
 </p>
 </div>
@@ -259,11 +259,11 @@ To use different accounts, Mindcraft will connect with the account that the Mine
 
 ## Tasks
 
-Tasks automatically start the bot with a prompt and a goal item to acquire or blueprint to construct. To run a simple task that involves collecting 4 oak_logs run 
+Tasks automatically start the bot with a prompt and a goal item to acquire or blueprint to construct. To run a simple task that involves collecting 4 oak_logs run
 
 `node main.js --task_path tasks/basic/single_agent.json --task_id gather_oak_logs`
 
-Here is an example task json format: 
+Here is an example task json format:
 
 ```json
 {
@@ -291,7 +291,7 @@ Here is an example task json format:
 }
 ```
 
-The `initial_inventory` is what the bot will have at the start of the episode, `target` refers to the target item and `number_of_target` refers to the number of target items the agent needs to collect to successfully complete the task. 
+The `initial_inventory` is what the bot will have at the start of the episode, `target` refers to the target item and `number_of_target` refers to the number of target items the agent needs to collect to successfully complete the task.
 
 If you want more optimization and automatic launching of the minecraft world, you will need to follow the instructions in [Minecollab Instructions](docs/minecollab.md#installation)
 
