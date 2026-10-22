@@ -1,0 +1,638 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped wooden_sword.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used equip* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You do not have any wooden_sword to equip. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "perfect, got it equipped"
+    },
+    {
+        "role": "user",
+        "content": "jill: sweet "
+    },
+    {
+        "role": "assistant",
+        "content": "thanks jill, feeling better now !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -295.54, y: 74.00, z: 111.49\n- Gamemode: survival\n- Health: 7 / 20\n- Hunger: 17 / 20\n- Biome: forest\n- Weather: Rain\n- Time: Morning- Current Action: Idle\n- Nearby Human Players: jill, redapeman\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used stats* "
+    },
+    {
+        "role": "user",
+        "content": "jill: STATS - Position: x: -297.48, y: 75.00, z: 111.52 - Gamemode: survival - Health: 20 / 20 - Hunger: 20 / 20 - Biome: forest - Weather: Rain - Time: Morning- Current Action: Idle - Nearby Human Players: andy, redapeman - Nearby Bot Players: None. Agent Modes"
+    },
+    {
+        "role": "user",
+        "content": "jill: : - self_preservation(ON) - unstuck(ON) - cowardice(OFF) - self_defense(ON) - hunting(OFF) - item_collecting(ON) - torch_placing(ON) - elbow_room(ON) - idle_staring(ON) - cheat(OFF) "
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "still sitting at 7hp, got any food spare?"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)still sitting at 7hp, got any food spare?"
+    },
+    {
+        "role": "user",
+        "content": "jill: nah i'm empty rn "
+    },
+    {
+        "role": "assistant",
+        "content": "np i'll find something quick !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: jill\n- Human player: redapeman\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES - Human player: andy - Human player: redapeman "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll hunt for food to recover my health.\n\ngonna grab a snack real quick !searchForEntity(\"cow\", 100)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used searchForEntity* "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting creeper! "
+    },
+    {
+        "role": "assistant",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: I'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "backing up, 7hp! !moveAway(15)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used moveAway* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Found non-destructive path. Moved away from (-325, 70, 109) to (-319, 72, 123). "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-339, 48, 117) to (-335, 39, 129).\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -325.60, y: 34.00, z: 129.57 in the overworld dimension with the final message: 'andy was blown up by Creeper'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "that creeper got me, respawned fresh"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)that creeper got me, respawned fresh"
+    },
+    {
+        "role": "user",
+        "content": "jill: rip! need help grabbing your stuff? "
+    },
+    {
+        "role": "assistant",
+        "content": "yeah pls, I'm empty heading back now !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToRememberedPlace* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: No location named \"last_death_position\" saved. "
+    },
+    {
+        "role": "assistant",
+        "content": "yeah lost it all, heading back there now !goToCoordinates(-325, 34, 130, 2)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToCoordinates* "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!\nFighting zombie!\nFighting zombie!\nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: ched.. "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Path not found, but attempting to navigate anyway using destructive movements. Pathfinding stopped: Cannot break stone with current tools. Pathfinding stopped: Path was stopped before it could be completed! Thus, the desired goal was not rea"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah I'm stuck in stone with no tools, coming to you !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "assistant",
+        "content": "yep I'm right here with ya !followPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!\nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used followPlayer* "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Action output:\n!!Code threw exception!!\nError: TypeError: Cannot read properties of undefined (reading 'entity')\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!\nI'm dying!\nI'm dying!\nFighting zombie!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -332.51, y: 43.75, z: 134.70 in the overworld dimension with the final message: 'andy was slain by Zombie'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "back on it !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "assistant",
+        "content": "got you, helping! !attack(\"zombie\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Could not find any zombie to attack. "
+    },
+    {
+        "role": "assistant",
+        "content": "all clear? lemme look !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES: none "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully killed zombie.\nFound non-destructive path.\nPicked up 1 items.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "cleared – checking loot.\n\nnice, we got it !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dirt: 17\nWEARING: Nothing\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - stick: 7 - oak_planks: 18 - oak_sapling: 1 - arrow: 1 - bone: 1 - dirt: 5 - rotten_flesh: 1 WEARING: Nothing "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)got you, helping! !attack(\"zombie\")cleared – checking loot.\n\nnice, we got it !inventory"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing wood rn !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill: all clear, no zombies left! "
+    },
+    {
+        "role": "assistant",
+        "content": "sweet, back to wood grind"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: nice, 9 more logs secured "
+    },
+    {
+        "role": "assistant",
+        "content": "bet, checking haul !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dirt: 9\n- oak_log: 17\n- apple: 1\n- oak_sapling: 3\n- stick: 2\nWEARING: Nothing\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - stick: 7 - oak_planks: 18 - oak_sapling: 3 - arrow: 1 - bone: 1 - dirt: 1 - rotten_flesh: 1 - oak_log: 13 WEARING: Nothing "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "assistant",
+        "content": "nice, tooling up now !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftable* "
+    },
+    {
+        "role": "user",
+        "content": "jill: CRAFTABLE_ITEMS - oak_planks - oak_wood - crafting_table - oak_button - oak_pressure_plate - stick - bone_meal "
+    },
+    {
+        "role": "assistant",
+        "content": "crafting planks !craftRecipe(\"oak_planks\", 4)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 12 oak_planks.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted oak_planks, you now have 34 oak_planks. "
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "assistant",
+        "content": "making a table !craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted crafting_table, you now have 1 crafting_table. "
+    },
+    {
+        "role": "assistant",
+        "content": "got it !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 13\n- oak_planks: 12\n- crafting_table: 1\n- dirt: 9\n- apple: 1\n- oak_sapling: 3\n- stick: 2\nWEARING: Nothing\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - oak_log: 9 - oak_planks: 30 - crafting_table: 1 - stick: 7 - oak_sapling: 5 - arrow: 1 - bone: 1 - rotten_flesh: 1 WEARING: Nothing "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "back here !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n- oak_slab\n- chest\n- crafting_table\n- oak_fence\n- oak_stairs\n- oak_button\n- oak_pressure_plate\n- oak_door\n- oak_trapdoor\n- oak_boat\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stick\n- oak_sign\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftable* "
+    },
+    {
+        "role": "user",
+        "content": "jill: CRAFTABLE_ITEMS - oak_planks - oak_wood - oak_slab - chest - crafting_table - ladder - oak_fence - oak_stairs - oak_button - oak_pressure_plate - oak_door - oak_trapdoor - oak_fence_gate - oak_boat - bowl - wooden_sword - wooden_shovel - wooden_pickaxe - w"
+    },
+    {
+        "role": "user",
+        "content": "jill: ooden_axe - wooden_hoe - stick - oak_sign - bone_meal "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "tools up !placeHere(\"crafting_table\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used placeHere* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Placed crafting_table at (-331, 67, 161). "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-260, 76, 137).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "table down, sticks up !craftRecipe(\"stick\", 2)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted stick, you now have 11 stick. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 6 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "assistant",
+        "content": "pickaxe time !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-260, 76, 137). Navigating...\nFound non-destructive path.\nYou have reached at -260, 76, 137.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "assistant",
+        "content": "spider, say bye !attack(\"spider\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCould not find any spider to attack.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!\nFighting spider!\nFighting spider!\nFighting spider!\nFighting spider!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Could not find any spider to attack. "
+    },
+    {
+        "role": "assistant",
+        "content": "checking around !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES: none "
+    },
+    {
+        "role": "assistant",
+        "content": "getting stone to upgrade !collectBlocks(\"stone\", 19)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill: CRAFTABLE_ITEMS - oak_planks - oak_wood - oak_slab - cobblestone_slab - chest - crafting_table - furnace - ladder - cobblestone_stairs - oak_fence - oak_stairs - cobblestone_wall - lever - oak_button - oak_pressure_plate - oak_door - oak_trapdoor - oak_fen"
+    },
+    {
+        "role": "user",
+        "content": "jill: ce_gate - oak_boat - bowl - wooden_sword - wooden_shovel - wooden_pickaxe - wooden_axe - wooden_hoe - stone_sword - stone_shovel - stone_pickaxe - stone_axe - stone_hoe - stick - oak_sign - bone_meal "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 19 stone.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Collected 19 stone. "
+    },
+    {
+        "role": "assistant",
+        "content": "got stone, seeing what I can make !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n- crafting_table\n- lever\n- oak_button\n- oak_pressure_plate\n- stick\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftable* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted crafting_table, you now have 1 crafting_table. "
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "dropping table !placeHere(\"crafting_table\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used placeHere* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Placed crafting_table at (-334, 62, 170). "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-272, 64, 130).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "upgrading to stone !craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    }
+]

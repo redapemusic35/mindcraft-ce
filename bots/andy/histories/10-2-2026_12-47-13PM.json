@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"furnace\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-310, 47, 82).\nSuccessfully crafted furnace, you now have 1 furnace.\nCollected 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "smelting time !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 6\n- coal: 8\n- raw_iron: 5\n- cobblestone: 41\n- furnace: 1\n- wooden_pickaxe: 1\n- oak_sapling: 1\n- stone_pickaxe: 1\n- dirt: 3\n- oak_log: 3\n- oak_planks: 3\n- andesite: 5\n- crafting_table: 1\n- torch: 6\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "setting up to smelt iron !placeHere(\"furnace\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced furnace at (-310, 47, 82).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!smeltItem(\"raw_iron\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nUsing coal as fuel.\nAdded 1 coal to furnace fuel.\nSuccessfully smelted raw_iron, got 5 iron_ingot.\n"
+    },
+    {
+        "role": "system",
+        "content": "Safely restarting to update inventory."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    }
+]

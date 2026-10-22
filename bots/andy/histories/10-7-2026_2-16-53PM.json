@@ -1,0 +1,46 @@
+[
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    }
+]

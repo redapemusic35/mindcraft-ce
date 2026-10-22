@@ -1,0 +1,65 @@
+{
+  "memory": "No response data.",
+  "turns": [
+    {
+      "role": "system",
+      "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting phantom!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting phantom!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+      "role": "system",
+      "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    }
+  ],
+  "self_prompting_state": 0,
+  "self_prompt": null,
+  "taskStart": 1791897912349,
+  "last_sender": null
+}

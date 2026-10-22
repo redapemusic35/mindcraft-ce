@@ -1,0 +1,1550 @@
+[
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)Hey groqbot, ready to help build the shelter. What do you need me to do?"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting phantom!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -216.59, y: 62.75, z: 102.38 in the overworld dimension with the final message: 'groqbot was slain by Phantom'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "andy hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "andy hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "andy hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by unstuck.\n        Your behavior log: Fighting creeper!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Picking up item!\nFighting spider!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -285.50, y: 77.00, z: 129.09 in the overworld dimension with the final message: 'andy was slain by Spider'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    }
+]

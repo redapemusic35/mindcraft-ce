@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll start building a shelter near you and stocking it.\n\nbuilding shelter here !newAction(\"Build a small shelter at your current position near jill and redapeman. Steps: 1. Clear a 5x5 flat area. 2. Build 3-high walls with birch_planks leaving a 2-high doorway facing jill. 3. Add roof with birch_planks. 4. Place the chest from inventory inside shelter against wall. 5. Place torch if available. Use only birch_planks and birch_log from inventory, collect more wood if needed by chopping nearby birch trees.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    }
+]

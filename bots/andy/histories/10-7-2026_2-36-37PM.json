@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "assistant",
+        "content": "got you, building shelter by you now! !collectBlocks(\"birch_log\", 15)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill:  !newAction(\"Step 1: Stay at current position near andy and redapeman. Step 2: Clear a 5x5 flat area on grass. Step 3: Build walls 3 blocks high using birch_planks and oak_log leaving a 1x2 door opening. Step 4: Add a flat plank roof to enclose the shelter"
+    }
+]

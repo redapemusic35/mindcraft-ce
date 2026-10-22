@@ -1,0 +1,42 @@
+[
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: you there bro?"
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    }
+]

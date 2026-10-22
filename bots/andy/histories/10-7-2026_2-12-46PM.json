@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "assistant",
+        "content": "hey on it, building shelter by you guys now! !newAction(\"Go to jill position, clear flat 5x5 area nearby, build 3-high walls with birch_planks and birch_log corners, leave door facing jill, make plank roof, place chest inside, then craft wooden swords and store extra weapons in chest\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    }
+]

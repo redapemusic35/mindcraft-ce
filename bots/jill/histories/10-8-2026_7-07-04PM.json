@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "You are already in conversation with andy. Don't use this command to talk to them."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)follow redapeman and collect oak logs, we're gearing for diamonds for dragon fight"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, following redapeman and getting oak logs! !followPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)nice, grab 10 oak logs and stay on redapeman, I'm here too"
+    },
+    {
+        "role": "assistant",
+        "content": "gotcha, grabbing 10 oak logs! !collectBlocks(\"oak_log\", 10)"
+    }
+]

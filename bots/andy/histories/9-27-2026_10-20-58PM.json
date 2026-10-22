@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\ntorch already at (-283, 70, 109).\n"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: perfect"
+    },
+    {
+        "role": "assistant",
+        "content": "sweet, all lit"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: found some copper"
+    },
+    {
+        "role": "assistant",
+        "content": "nice, copper time"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: do you have anymore coal? Could you put it in this furnace to smelt the copper? I will make us something to wear"
+    },
+    {
+        "role": "assistant",
+        "content": "yep got coal, throwing it in now !smeltItem(\"raw_copper\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound furnace at (-283, 70, 114). Navigating...\nFound non-destructive path.\nYou have reached at -283, 70, 114.\nUsing coal as fuel.\nAdded 1 coal to furnace fuel.\nSuccessfully smelted raw_copper, got 4 copper_ingot.\n"
+    },
+    {
+        "role": "system",
+        "content": "Safely restarting to update inventory."
+    }
+]

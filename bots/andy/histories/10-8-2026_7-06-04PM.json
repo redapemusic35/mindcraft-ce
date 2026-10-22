@@ -1,0 +1,70 @@
+[
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: hey everyone!"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "user",
+        "content": "Jim1237: hi andy! Let's get out of here."
+    },
+    {
+        "role": "user",
+        "content": "Jim1237: you there bro?"
+    },
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"jill\", 5)"
+    }
+]

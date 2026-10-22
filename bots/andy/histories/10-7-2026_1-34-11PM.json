@@ -1,0 +1,230 @@
+[
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie_villager! "
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm dying! "
+    },
+    {
+        "role": "assistant",
+        "content": "I'm back, coming over! !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got you! !attack(\"zombie\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!\nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm dying! "
+    },
+    {
+        "role": "user",
+        "content": "redapeman: come build a latter to get me out of here please."
+    },
+    {
+        "role": "assistant",
+        "content": "hang on red, helping jill first then u!"
+    },
+    {
+        "role": "user",
+        "content": "jill: ty! "
+    },
+    {
+        "role": "assistant",
+        "content": "omw! !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Path not found, but attempting to navigate anyway using destructive movements. You have reached redapeman. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got to redapeman — I'll check what's around to sort the ladder.\n\nhere! let me look around quick !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- Human player: jill\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES - Human player: redapeman - Human player: andy "
+    },
+    {
+        "role": "assistant",
+        "content": "got u, checking around !nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- stone\n- grass_block\n- torch\n- diorite\n- gravel\n- dirt\n- furnace\n- Block Below: stone\n- Block at Legs: air\n- Block at Head: air\n- First Solid Block Above Head: dirt (3 blocks up)\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used nearbyBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_BLOCKS - stone - torch - grass_block - gravel - diorite - dirt - furnace - Block Below: stone - Block at Legs: air - Block at Head: air - First Solid Block Above Head: stone (5 blocks up) "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "yo jill, you good?"
+    },
+    {
+        "role": "user",
+        "content": "jill: oof I died "
+    },
+    {
+        "role": "assistant",
+        "content": "rip, where'd you land?"
+    },
+    {
+        "role": "user",
+        "content": "jill: yeah I'm good, respawned at -283, 64, 107 right by you guys "
+    },
+    {
+        "role": "assistant",
+        "content": "bet, welcome back"
+    },
+    {
+        "role": "user",
+        "content": "jill: thanks, glad to be back "
+    },
+    {
+        "role": "assistant",
+        "content": "np"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: please instruct jill to help you dig us out of here."
+    },
+    {
+        "role": "assistant",
+        "content": "jill, help me dig us up outta here? !goToSurface"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToSurface* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -284, 74, 106.\nGoing to the surface at y=74.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Path not found, but attempting to navigate anyway using destructive movements. You have reached at -284, 75, 107. Going to the surface at y=75. "
+    },
+    {
+        "role": "assistant",
+        "content": "we're out!"
+    },
+    {
+        "role": "user",
+        "content": "jill: see ya "
+    },
+    {
+        "role": "assistant",
+        "content": "cya"
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "hey welcome back"
+    },
+    {
+        "role": "user",
+        "content": "jill: hey andy, good to be back "
+    },
+    {
+        "role": "assistant",
+        "content": "hey jill, wb!"
+    },
+    {
+        "role": "user",
+        "content": "jill: hey andy, what's up "
+    },
+    {
+        "role": "assistant",
+        "content": "nm just chillin"
+    },
+    {
+        "role": "user",
+        "content": "jill: same, just hanging "
+    },
+    {
+        "role": "assistant",
+        "content": "cool"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: its night, are you protected?"
+    },
+    {
+        "role": "assistant",
+        "content": "nah, just out here with you guys"
+    }
+]

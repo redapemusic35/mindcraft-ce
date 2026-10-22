@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "assistant",
+        "content": "!newAction(\"Build a small 5x5 shelter at my current position near jill and redapeman. Step 1 clear a flat 5x5 area around me. Step 2 place dirt floor if needed. Step 3 build 3-high walls using birch_planks, birch_log, oak_log and dirt leaving a 2-high door opening facing jill. Step 4 add flat plank roof with birch_planks to cover 5x5. Step 5 place chest inside shelter. Step 6 stop after done.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    }
+]

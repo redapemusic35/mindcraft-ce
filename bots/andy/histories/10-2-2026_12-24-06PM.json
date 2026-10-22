@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nUnable to reach -313, 77, 116, you are 28 blocks away.\nGoing to the surface at y=77.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nAaa! A creeper!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "yo let's link up and get geared !goToPlayer(\"redapeman\", 3)"
+    }
+]

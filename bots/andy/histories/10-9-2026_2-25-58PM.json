@@ -1,0 +1,254 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Jim! I'm here. Let's set up a quick shelter. !collectBlocks(\"oak_log\", 20)"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)!goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Jim! I'm here. !goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\n!!Code threw exception!!\nError: TypeError: Cannot read properties of undefined (reading 'entity')\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)Hey Jim! I'm here. !goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: yo, groqbot and andy, come join jill and I."
+    },
+    {
+        "role": "assistant",
+        "content": "On my way! !goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "On my way! !goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: you are the most senior person here, get groqbot and jill to help you build a shelter for the three of us."
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"oak_log\",30)"
+    },
+    {
+        "role": "assistant",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it, gathering wood! !collectBlocks(\"oak_log\",30)"
+    },
+    {
+        "role": "assistant",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "!moveAway(5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-264, 73, 116) to (-260, 71, 113).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 12\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)Got it, gathering wood! !collectBlocks(\"oak_log\",30)!moveAway(5)!inventory"
+    },
+    {
+        "role": "assistant",
+        "content": "!startConversation(\"groqbot\", \"Hey groqbot, can you and jill help me build a shelter for us?\")"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)hello world groqbot"
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached jill.\n"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)!goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)!goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"oak_log\",20)"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Great, let's keep gathering wood. !collectBlocks(\"oak_log\",30)"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it. !moveAway(5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-262, 71, 114) to (-257, 72, 117).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Glad you're back! !collectBlocks(\"oak_log\",30)"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "On it. !searchForBlock(\"oak_log\",64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound oak_log at (-258, 75, 114). Navigating...\nFound non-destructive path.\nYou have reached at -258, 75, 114.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"chest\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have any chest to place.\n"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 60 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)!collectBlocks(\"oak_log\",20)!collectBlocks(\"oak_log\",30)"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)Retrying now!"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\",12)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 36 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"chest\",1)"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "redapeman: on it!"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll check what's nearby so I can help grab our stuff.\n\n!entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- Bot player: jill\n"
+    },
+    {
+        "role": "assistant",
+        "content": "nice, grabbing our stuff then re-gear !followPlayer(\"redapeman\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    }
+]

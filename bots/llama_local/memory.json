@@ -1,0 +1,65 @@
+{
+  "memory": "I'm good, thanks for asking. I had a rough fight with a phantom earlier, and I'm still recovering.",
+  "turns": [
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "assistant",
+      "content": "No response data."
+    },
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "Agent process restarted."
+    },
+    {
+      "role": "system",
+      "content": "You died at position x: -268.50, y: 73.00, z: 113.50 in the overworld dimension with the final message: 'llama_local was slain by Zombie'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    }
+  ],
+  "self_prompting_state": 0,
+  "self_prompt": null,
+  "taskStart": 1791898327112,
+  "last_sender": null
+}

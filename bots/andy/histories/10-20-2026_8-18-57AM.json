@@ -1,0 +1,42 @@
+[
+    {
+        "role": "user",
+        "content": "jill: I’m here with you both! "
+    },
+    {
+        "role": "user",
+        "content": "jill: vel, sword, and spare swords, then equip only what is needed and give the rest to the players. Coordinate with nearby players and avoid attacking anyone.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goal* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goal* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goal* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goal* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goal* "
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm stuck! "
+    },
+    {
+        "role": "assistant",
+        "content": "On my way, jill—I’ll help you get unstuck. !goToPlayer(\"jill\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    }
+]

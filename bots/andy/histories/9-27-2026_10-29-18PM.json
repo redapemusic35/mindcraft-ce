@@ -1,0 +1,190 @@
+[
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "done, 4 copper smelted"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: its daytime"
+    },
+    {
+        "role": "assistant",
+        "content": "nice, heading up !goToSurface"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -281, 88, 117.\nGoing to the surface at y=88.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "up top now"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: perhaps we should keep mining until we have plenty of iron and coal to smelt the iron."
+    },
+    {
+        "role": "assistant",
+        "content": "yeah let's stock up !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah let's stock up !equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "bet, hunting iron now !searchForBlock(\"iron_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound iron_ore at (-288, 62, 105). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -288, 62, 105.\n"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, grabbing this iron !collectBlocks(\"iron_ore\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have right tools to harvest iron_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "need a stone pick, making one quick !craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-302, 62, 104).\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\nCollected 1 crafting_table.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: good job finding the iron. Let's find 10 more"
+    },
+    {
+        "role": "assistant",
+        "content": "on it !equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got it, grabbing 10 more !collectBlocks(\"iron_ore\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect iron_ore: NoPath: No path to the goal!.\nPlaced torch at (-313, 58, 103).\nFailed to collect iron_ore: NoPath: No path to the goal!.\nFailed to collect iron_ore: NoPath: No path to the goal!.\nFailed to collect iron_ore: NoPath: No path to the goal!.\nFailed to collect iron_ore: NoPath: No path to the goal!.\nFailed to collect iron_ore: NoPath: No path to the goal!.\nFailed to collect iron_ore: NoPath: No path to the goal!.\nCollected 3 iron_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got 3, keep hunting !searchForBlock(\"iron_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound iron_ore at (-312, 48, 101). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -312, 48, 101.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "here, digging more !collectBlocks(\"iron_ore\", 7)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: Picking up item!\nPicking up item!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "stuck a sec, checking around !nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- torch\n- stone\n- granite\n- iron_ore\n- dirt\n- diorite\n- coal_ore\n- andesite\n- Block Below: stone\n- Block at Legs: torch\n- Block at Head: air\n- First Solid Block Above Head: stone (3 blocks up)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing more !collectBlocks(\"iron_ore\", 7)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "kinda wedged, shifting out !moveAway(3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-307, 51, 98) to (-304, 50, 98).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "back to the vein !goToCoordinates(-312, 48, 101, 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -312, 48, 101.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "back on it, mining iron !collectBlocks(\"iron_ore\", 7)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: Picking up item!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "that unstuck keeps tripping while I'm mining, turning it off to finish this vein !setMode(\"unstuck\", false)"
+    },
+    {
+        "role": "system",
+        "content": "Mode unstuck is now off."
+    },
+    {
+        "role": "assistant",
+        "content": "mining the rest now !collectBlocks(\"iron_ore\", 7)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: there are a lot of mobs down here. We'll have to be careful especially as it's getting close to night."
+    },
+    {
+        "role": "assistant",
+        "content": "yeah saw that spider, keeping my sword out !equip(\"stone_sword\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_sword.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "yep, got sword out - clearing that spider first !attack(\"spider\")"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:attack' was interrupted by self_defense.\n        Your behavior log: Fighting spider!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "yeah spider jumped me, dealing with it"
+    }
+]

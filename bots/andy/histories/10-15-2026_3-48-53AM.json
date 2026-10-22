@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "You died at position x: -272.30, y: 73.00, z: 116.58 in the overworld dimension with the final message: 'andy was blown up by Creeper'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "I’ll get clear of the creeper and skeletons. !moveAway(40)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nMoved away from (-278, 74, 114) to (-313, 55, 103).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I’m back at the lower spot and away from the danger. I’ll stay put to recover. !stay(60)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    }
+]

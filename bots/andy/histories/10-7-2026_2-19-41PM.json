@@ -1,0 +1,110 @@
+[
+    {
+        "role": "user",
+        "content": "jill: got it building shelter now! !newAction(\"Step1 clear a flat 5x5 area at current position. Step2 lay birch_planks floor. Step3 build 3 high birch_planks walls with a 1 wide 2 high door gap facing south. Step4 add flat birch_planks roof. Step5 place chest in"
+    },
+    {
+        "role": "user",
+        "content": "jill: side shelter.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll start by heading over to you to find a spot for the shelter.\n\nhey building shelter nearby! !goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: I've got our chest ready — now I'll build the shelter and stock it with weapons.  on it, building our little shelter now! !newAction(\"Build a 5x5 shelter near current position: 1. Find flat grass area within 10 blocks, clear grass. 2. Build 5x5 floor of bi"
+    },
+    {
+        "role": "user",
+        "content": "jill: rch_planks and oak planks. 3. Build 3-high walls of birch_planks and oak_log corners leaving 1-wide door gap south side. 4. Place crafting_table inside if possible, place chest at (-274,76,109) area inside shelter, place torch for light. 5. Put wooden_swor"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "assistant",
+        "content": "On my way — I'll grab wood and get that shelter started.\n\n!collectBlocks(\"oak_log\", 20)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Exiting."
+    },
+    {
+        "role": "user",
+        "content": "jill: Building shelter here for us! !newAction(\"Build a small 5x5 shelter with walls 3 high using birch_planks and oak_log at current location, leave door opening south, place chest inside, craft door and place it\")"
+    }
+]

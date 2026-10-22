@@ -1,0 +1,53 @@
+{
+  "memory": "Follow redapeman to the surface, stay with him, and collect oak logs (10) for Andy’s diamond‑prep plan. Continue assisting Andy as needed, asking his next request.",
+  "turns": [
+    {
+      "role": "user",
+      "content": "redapeman: you do not need to follow me, just craft what we need."
+    },
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+      "role": "assistant",
+      "content": "What should I craft for the diamond gear?"
+    },
+    {
+      "role": "system",
+      "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "system",
+      "content": "Conversation with andy ended with message: \"(FROM OTHER BOT)I'm talking to someone else, try again later. !endConversation(\"jill\")\""
+    }
+  ],
+  "self_prompting_state": 0,
+  "self_prompt": null,
+  "taskStart": 1791291035320,
+  "last_sender": null
+}

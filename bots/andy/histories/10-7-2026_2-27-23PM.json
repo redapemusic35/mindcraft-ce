@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "user",
+        "content": "jill: Building shelter now! !newAction(\"Build a small 5x5 shelter at current position step by step: 1 clear flat area, 2 place floor using birch_planks, 3 build walls 3 blocks high using oak_log and birch_planks, 4 build roof, 5 leave 1 door opening, 6 place che"
+    },
+    {
+        "role": "user",
+        "content": "jill: st inside shelter\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    }
+]

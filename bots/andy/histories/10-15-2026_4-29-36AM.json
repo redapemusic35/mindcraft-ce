@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!\nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -273.42, y: 73.00, z: 117.50 in the overworld dimension with the final message: 'andy was slain by Spider'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by unstuck.\n        Your behavior log: Fighting zombie!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "I keep respawning in danger. I’ll check my health and location first. !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -274.32, y: 73.52, z: 101.30\n- Gamemode: survival\n- Health: 5 / 20\n- Hunger: 14 / 20\n- Biome: forest\n- Weather: Clear\n- Time: Night- Current Action: mode:self_defense\n- Nearby Human Players: None.\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    }
+]

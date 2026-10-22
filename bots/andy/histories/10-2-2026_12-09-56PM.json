@@ -1,0 +1,154 @@
+[
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -274.36, y: 75.92, z: 106.34\n- Gamemode: survival\n- Health: 20 / 20\n- Hunger: 20 / 20\n- Biome: forest\n- Weather: Rain\n- Time: Night- Current Action: mode:self_defense\n- Nearby Human Players: redapeman\n- Nearby Bot Players: jill\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "night's rough with no gear, gonna run instead of fighting !setMode(\"cowardice\", true)"
+    },
+    {
+        "role": "system",
+        "content": "Mode cowardice is now on."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!\nFighting zombie!\nPicking up item!"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah laying low tonight !setMode(\"self_defense\", false)"
+    },
+    {
+        "role": "system",
+        "content": "Mode self_defense is now off."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: let's protect ourselves until morning"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah let's stick together till sunrise !followPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: what do you want to do now?"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world I'm andy"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: What do you want to do?"
+    },
+    {
+        "role": "assistant",
+        "content": "let's grab wood and tool up, I got nothing"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: yes lets"
+    },
+    {
+        "role": "assistant",
+        "content": "bet, grabbing wood now !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect oak_log: Error: Digging aborted.\nCollected 9 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got some wood, checking what I got !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 13\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n"
+    },
+    {
+        "role": "assistant",
+        "content": "making planks !craftRecipe(\"oak_planks\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 4 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n- crafting_table\n- oak_button\n- oak_pressure_plate\n- stick\n"
+    },
+    {
+        "role": "assistant",
+        "content": "making a table !craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "sticking with you redapeman !followPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nFighting zombie!\nFighting skeleton!\nFighting skeleton!\nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -258.53, y: 70.00, z: 106.57 in the overworld dimension with the final message: 'andy was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "respawned, one sec !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -278.50, y: 76.00, z: 110.50\n- Gamemode: survival\n- Health: 20 / 20\n- Hunger: 20 / 20\n- Biome: forest\n- Weather: Clear\n- Time: Night- Current Action: Idle\n- Nearby Human Players: redapeman\n- Nearby Bot Players: jill\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "on my way back !followPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!\nFighting skeleton!\nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -256.50, y: 69.00, z: 85.00 in the overworld dimension with the final message: 'andy was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "skeletons again, going lowkey til sunrise !setMode(\"cowardice\", true)"
+    },
+    {
+        "role": "system",
+        "content": "Mode cowardice is now on."
+    },
+    {
+        "role": "assistant",
+        "content": "laying low till morning !followPlayer(\"redapeman\", 8)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A skeleton!\nAaa! A creeper!\nAaa! A creeper!\nAaa! A creeper!\nAaa! A creeper!\nAaa! A creeper!\nAaa! A skeleton!"
+    }
+]

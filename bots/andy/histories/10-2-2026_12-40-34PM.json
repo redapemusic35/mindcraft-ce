@@ -1,0 +1,162 @@
+[
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n- oak_button\n- oak_pressure_plate\n- oak_fence_gate\n- wooden_sword\n- wooden_shovel\n- wooden_hoe\n- stick\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 5\n- oak_planks: 2\n- stick: 4\n- crafting_table: 1\n- oak_sapling: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 10 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "need pickaxe now !getCraftingPlan(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou have all items required to craft this item!\nHere's your crafting plan:\n\nCraft 3 oak_planks + 2 stick -> 1 wooden_pickaxe\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 3\n- oak_planks: 10\n- stick: 4\n- crafting_table: 1\n- oak_sapling: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got wood, making tools now !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-310, 51, 101). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -310, 51, 101.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!\nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- dirt\n- stone\n- diorite\n- grass_block\n- andesite\n- coal_ore\n- gravel\n- granite\n- copper_ore\n- Block Below: dirt\n- Block at Legs: air\n- Block at Head: air\n- First Solid Block Above Head: stone (4 blocks up)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing stone for stone tools !collectBlocks(\"stone\", 15)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 15 stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_planks: 7\n- crafting_table: 1\n- wooden_pickaxe: 1\n- oak_sapling: 1\n- cobblestone: 26\n- dirt: 3\n- oak_log: 3\n- stick: 2\n- andesite: 3\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got stone, making stone pickaxe now !craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-319, 48, 84).\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\nCollected 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "stone pick done, equipping it !equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "need coal for torches next !collectBlocks(\"coal_ore\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 5 coal_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got coal, makin sticks for torches !craftRecipe(\"stick\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 8 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"torch\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted torch, you now have 8 torch.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "getting iron to gear up !searchForBlock(\"iron_ore\", 32)"
+    }
+]

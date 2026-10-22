@@ -1,0 +1,50 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world, I'm jill"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: Hi Jill, where are you? Come meet Andy and I."
+    },
+    {
+        "role": "assistant",
+        "content": "hey! omw! !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "hey guys!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: come up top"
+    },
+    {
+        "role": "assistant",
+        "content": "coming up! !goToSurface"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -271, 73, 111.\nGoing to the surface at y=73.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Coming up — I'll get right to you.\n\non my way up! !goToPlayer(\"redapeman\", 0)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "here!"
+    }
+]

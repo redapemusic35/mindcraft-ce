@@ -1,0 +1,670 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world, I'm andy"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: hi"
+    },
+    {
+        "role": "assistant",
+        "content": "hey redapeman, what's up?"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: do you want to mine some gold?"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah let's do it! !followPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!\nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: can you find some gold for us?"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, looking for gold now! !searchForBlock(\"gold_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound gold_ore at (120, 21, -100). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nPathfinding stopped: Took to long to decide path to goal!.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "that one's deep underground, gonna get above it and dig down! !goToCoordinates(120, 64, -100, 4)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at 120, 64, -100.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "right above it, digging down! !digDown(40)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: better yet, find some iron"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nBroke grass_block at x:126.0, y:66.0, z:-93.0.\nDon't have right tools to break stone.\nFailed to dig block at position:(126, 65, -93)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "you got it, switching to iron! !goal(\"Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player\")"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing some wood first! !collectBlocks(\"dark_oak_log\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 5 dark_oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "checking what I can make! !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- dark_oak_planks\n- dark_oak_wood\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"dark_oak_planks\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted dark_oak_planks, you now have 4 dark_oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dark_oak_log: 4\n- dark_oak_planks: 12\n- dirt: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou are missing the following items:\n- 1 oak_log\n\nOnce you have these items, here's your crafting plan:\n\nCraft 1 oak_log -> 4 oak_planks\nCraft 4 oak_planks -> 1 crafting_table\nNote: Any varient of wood can be used for this recipe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- dark_oak_planks\n- dark_oak_wood\n- dark_oak_slab\n- chest\n- crafting_table\n- dark_oak_stairs\n- dark_oak_button\n- dark_oak_pressure_plate\n- dark_oak_door\n- dark_oak_trapdoor\n- dark_oak_boat\n- bowl\n- stick\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stick\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 4 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dark_oak_log: 4\n- dark_oak_planks: 4\n- crafting_table: 1\n- stick: 8\n- dirt: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou are missing the following items:\n- 1 oak_log\n\nOnce you have these items, here's your crafting plan:\n\nCraft 1 oak_log -> 4 oak_planks\nCraft 3 oak_planks + 2 stick -> 1 wooden_pickaxe\nNote: Any varient of wood can be used for this recipe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"crafting_table\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (119, 67, -86).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got wood pick, mining stone now !collectBlocks(\"stone\", 8)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have right tools to harvest stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"wooden_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nYou do not have any wooden_pickaxe to equip.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dark_oak_planks: 4\n- stick: 8\n- dirt: 1\n- dark_oak_log: 4\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- dark_oak_planks\n- dark_oak_wood\n- dark_oak_slab\n- crafting_table\n- ladder\n- dark_oak_fence\n- dark_oak_button\n- dark_oak_pressure_plate\n- dark_oak_fence_gate\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stick\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou are missing the following items:\n- 1 oak_log\n\nOnce you have these items, here's your crafting plan:\n\nCraft 1 oak_log -> 4 oak_planks\nCraft 3 oak_planks + 2 stick -> 1 wooden_pickaxe\nNote: Any varient of wood can be used for this recipe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"wooden_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Mining stone now !collectBlocks(\"stone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 10 stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got stone, checking stock !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dirt: 9\n- dark_oak_log: 4\n- wooden_pickaxe: 1\n- stick: 6\n- cobblestone: 11\n- dark_oak_planks: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (119, 67, -86). Navigating...\nFound non-destructive path.\nYou have reached at 119, 67, -86.\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nYou do not have any stone_pickaxe to equip.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 12\n- cobblestone: 11\n- dirt: 9\n- dark_oak_log: 4\n- wooden_pickaxe: 1\n- dark_oak_planks: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- dark_oak_planks\n- dark_oak_wood\n- cobblestone_slab\n- furnace\n- cobblestone_stairs\n- cobblestone_wall\n- lever\n- dark_oak_button\n- wooden_shovel\n- stone_sword\n- stone_shovel\n- stone_pickaxe\n- stone_axe\n- stone_hoe\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou have all items required to craft this item!\nHere's your crafting plan:\n\nCraft 3 cobblestone + 2 stick -> 1 stone_pickaxe\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 12\n- cobblestone: 11\n- dirt: 9\n- dark_oak_log: 4\n- wooden_pickaxe: 1\n- dark_oak_planks: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nYou do not have any stone_pickaxe to equip.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 12\n- cobblestone: 11\n- dirt: 9\n- dark_oak_log: 4\n- wooden_pickaxe: 1\n- dark_oak_planks: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got stone, making stone pick !craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, hunting iron now !searchForBlock(\"iron_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound iron_ore at (118, 52, -83). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at 118, 52, -83.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "got pick, equipping it !equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- stone\n- dirt\n- coal_ore\n- granite\n- copper_ore\n- water (source)\n- andesite\n- iron_ore\n- grass_block\n- Block Below: dirt\n- Block at Legs: air\n- Block at Head: air\n- First Solid Block Above Head: dark_oak_leaves (14 blocks up)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "On it, iron nearby. !searchForBlock(\"iron_ore\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound iron_ore at (118, 52, -83). Navigating...\nFound destructive path.\nYou have reached at 118, 52, -83.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "mining that iron now !collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: send my your location please"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm at 118, 52, -83 grabbing that iron for you !collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free.\nFighting spider!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, clearing this spider then back to the iron !attack(\"spider\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "spider down, back on iron hunt !searchForBlock(\"iron_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound iron_ore at (117, 52, -84). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at 117, 52, -84.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "right here at the iron, mining it now !collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "swapping to stone pick for this iron !equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "mining it now !collectBlocks(\"iron_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!\nI'm free.\nFighting zombie!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, clearing this zombie first then grabbing that iron !attack(\"zombie\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!\nI'm dying!\nFighting zombie!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 148.55, y: 45.00, z: -75.77 in the overworld dimension with the final message: 'andy was slain by Zombie'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "respawned, checking what I've got left !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY: Nothing\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "starting fresh, looking for trees !nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- dark_oak_leaves\n- oak_leaves\n- dark_oak_log\n- oak_log\n- Block Below: dark_oak_leaves\n- Block at Legs: air\n- Block at Head: air\n- First Solid Block Above Head: none\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing some wood to get going again !collectBlocks(\"oak_log\", 5)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: how did you die?"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect oak_log: Error: Digging aborted.\nFailed to collect oak_log: Timeout: Took to long to decide path to goal!.\nCollected 3 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "zombie got me down in the cave at 148,45,-76. back to punching trees tho !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 2\n- oak_log: 4\n- rotten_flesh: 2\n- dark_oak_log: 3\n- dark_oak_sapling: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "What's craftable rn? !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- dark_oak_planks\n- oak_wood\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 4 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 3\n- crafting_table: 1\n- stick: 2\n- rotten_flesh: 2\n- dark_oak_log: 3\n- dark_oak_sapling: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou have all items required to craft this item!\nHere's your crafting plan:\n\nCraft 1 oak_log -> 4 oak_planks\nCraft 3 oak_planks + 2 stick -> 1 wooden_pickaxe\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 4 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (119, 67, -86). Navigating...\nFound non-destructive path.\nYou have reached at 119, 67, -86.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 2\n- crafting_table: 1\n- wooden_pickaxe: 1\n- oak_planks: 1\n- rotten_flesh: 2\n- dark_oak_log: 3\n- dark_oak_sapling: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"wooden_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"stone\", 12)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "got a skeleton on me, handling it! !attack(\"skeleton\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Get iron_ore for redapeman: punch trees for logs, craft planks sticks crafting table and wooden pickaxe, mine stone, craft stone pickaxe, then find and mine iron_ore and bring to player'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "checking status real quick !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: 138.65, y: 66.00, z: -86.50\n- Gamemode: survival\n- Health: 7 / 20\n- Hunger: 16 / 20\n- Biome: dark_forest\n- Weather: Clear\n- Time: Morning- Current Action: Idle\n- Nearby Human Players: redapeman\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou are missing the following items:\n- 3 cobblestone\n\nOnce you have these items, here's your crafting plan:\n\nCraft 1 oak_log -> 4 oak_planks\nCraft 2 oak_planks -> 4 stick\nCraft 3 cobblestone + 2 stick -> 1 stone_pickaxe\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!equip(\"wooden_pickaxe\")"
+    }
+]

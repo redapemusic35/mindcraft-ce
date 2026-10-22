@@ -1,0 +1,210 @@
+[
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: Fighting zombie!\nFighting zombie!\nFighting zombie!\nAaa! A zombie!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "shook em, back to wood !collectBlocks(\"dark_oak_log\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by cowardice.\n        Your behavior log: Aaa! A spider!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "ouch spider, checking around !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- entities: 2 bat(s)\n- entities: 1 axolotl(s)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "all clear, checking gear !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- rotten_flesh: 1\n- dark_oak_log: 9\n- moss_block: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got 9 logs, seeing what I can craft !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- dark_oak_planks\n- dark_oak_wood\n"
+    },
+    {
+        "role": "assistant",
+        "content": "making planks now !craftRecipe(\"dark_oak_planks\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted dark_oak_planks, you now have 4 dark_oak_planks.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nAaa! A enderman!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: prioritize crafting weapons."
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world, I'm andy"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: welcome back friend"
+    },
+    {
+        "role": "assistant",
+        "content": "hey, good to see you! !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY: Nothing\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "hey! grabbing wood to get us geared again !collectBlocks(\"oak_log\", 5)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: great initiative"
+    },
+    {
+        "role": "assistant",
+        "content": "thanks! on it"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect oak_log: Timeout: Took to long to decide path to goal!.\nCollected 4 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got wood, checking crafts !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: I am going to start making some supplies"
+    },
+    {
+        "role": "assistant",
+        "content": "nice, I'll get tools going !craftRecipe(\"oak_planks\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 8 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "cool, keepin it going !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- crafting_table\n- oak_button\n- oak_pressure_plate\n- stick\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stick\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 4 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "sweet, I'll keep prepping !getCraftingPlan(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou have all items required to craft this item!\nHere's your crafting plan:\n\nCraft 3 oak_planks + 2 stick -> 1 wooden_pickaxe\n"
+    },
+    {
+        "role": "assistant",
+        "content": "on it !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-281, 80, 98).\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\nCollected 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got a wood pick !equip(\"wooden_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got wood pick, grabbing stone now !collectBlocks(\"stone\", 11)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 11 stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_slab\n- cobblestone_slab\n- crafting_table\n- furnace\n- cobblestone_stairs\n- oak_fence\n- oak_stairs\n- cobblestone_wall\n- lever\n- oak_button\n- oak_pressure_plate\n- oak_door\n- oak_trapdoor\n- oak_boat\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stone_sword\n- stone_shovel\n- stone_pickaxe\n- stone_axe\n- stone_hoe\n- stick\n- oak_sign\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-285, 69, 98).\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\nCollected 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "stone pick done, equipping it !equip(\"stone_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "stone pick ready, making a stone sword next !craftRecipe(\"stone_sword\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-285, 69, 98).\nSuccessfully crafted stone_sword, you now have 1 stone_sword.\nCollected 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "sword done, checking gear !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 1\n- oak_sapling: 2\n- cobblestone: 8\n- wooden_pickaxe: 1\n- stone_sword: 1\n- dirt: 5\n- oak_planks: 7\n- crafting_table: 1\n- stone_pickaxe: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got stone gear, swapping to sword !equip(\"stone_sword\")"
+    }
+]

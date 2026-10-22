@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "jill:  !newAction(\"Build a small 5x5 wooden shelter at current position using birch_planks and logs from inventory. Steps: 1. Clear flat area near x -276 y 77 z 99. 2. Place 5x5 floor of birch_planks. 3. Build 3-high walls with logs at corners and planks elsewhe"
+    },
+    {
+        "role": "user",
+        "content": "jill: re leaving 2-block door opening. 4. Place roof of planks. 5. Place chest from inventory inside shelter. Do not chat, just build.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    }
+]

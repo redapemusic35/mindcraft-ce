@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nMoved away from (-277, 75, 103) to (-251, 78, 179).\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!\nFighting zombie!\nFighting zombie!\nFighting zombie!\nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -251.33, y: 78.00, z: 175.42 in the overworld dimension with the final message: 'andy was slain by Spider'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Fighting creeper!\nFighting zombie!\nPicking up item!\nFighting spider!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

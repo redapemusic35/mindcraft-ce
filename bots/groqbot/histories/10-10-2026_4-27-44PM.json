@@ -1,0 +1,62 @@
+[
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

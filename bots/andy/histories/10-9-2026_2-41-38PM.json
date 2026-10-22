@@ -1,0 +1,262 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted chest, you now have 1 chest.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it, groqbot!"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 60 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"chest\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced chest at (-244, 70, 106).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Jill, could you hand me any weapons you have?"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!\nPicking up item!\nFighting phantom!"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)!craftRecipe(\"oak_planks\",12)"
+    },
+    {
+        "role": "system",
+        "content": "Killing agent process..."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Jill, any swords or bows you could spare? \n\nHey redapeman, could you give me any weapons you’ve got?"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting phantom!"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Jill, any swords or bows you could spare?  \nHey redapeman, could you give me any weapons you’ve got? \n\nAlso, I’m low on health—if you have any food, that’d help too."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: I am in hiding but I've got a stick and I will come out and try to craft some."
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_sword\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-251, 71, 105). Navigating...\nFound non-destructive path.\nYou have reached at -251, 71, 105.\nSuccessfully crafted wooden_sword, you now have 1 wooden_sword.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)On my way to Jill. !goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "assistant",
+        "content": "!putInChest(\"wooden_sword\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -244, 70, 106.\nSuccessfully put 1 wooden_sword in the chest.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)!putInChest(\"wooden_sword\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "Low health, need food. !putInChest(\"stick\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -244, 70, 106.\nSuccessfully put 4 stick in the chest.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "jill, I'm at low health and starving. Could you spare any food, please?"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)I'll see if Jill has any food to share. !goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: where is everyone?"
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)I'm near Jill, fighting a phantom right now. Andy's low on health and looking for food."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: I placed two swords in the chest. with the one that's already there, that's one for each of us."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: I do not see a phantom."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)Here you go, Andy! !givePlayer(\"andy\",\"wooden_sword\",1)"
+    },
+    {
+        "role": "assistant",
+        "content": "!consume(\"chicken\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nConsumed chicken.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Thanks, redapeman! Any food you can spare? !putInChest(\"wooden_sword\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -244, 70, 106.\nSuccessfully put 1 wooden_sword in the chest.\n"
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: we should really be building a shelter for when night comes. I am going to build a tree house for us."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "groqbot hasn't responded in 30 seconds, respond with a message to them or your own action."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

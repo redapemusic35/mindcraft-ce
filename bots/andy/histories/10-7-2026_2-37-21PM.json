@@ -1,0 +1,286 @@
+[
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "On it, gathering wood for the shelter! !collectBlocks(\"birch_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill: building shelter right here guys! !newAction(\"Stay at current position near -271 76 125 close to andy and redapeman. Step 1 clear a 5x5 flat area of grass short_grass and leaves around you. Step 2 build a 5x5 hut with 3 high walls using birch_planks from i"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: nventory with oak_log corners leaving a 1 by 2 doorway facing open area. Step 3 make a flat roof over the hut using birch_planks. Step 4 place your chest inside the hut against a wall. Step 5 put wooden_sword bone and arrows from inventory into the chest f"
+    },
+    {
+        "role": "user",
+        "content": "jill: or weapon storage. Stay nearby and do not wander far.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "assistant",
+        "content": "On the way, building shelter soon! !goToPlayer(\"redapeman\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got it — heading over to build that shelter.\n\n!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- birch_planks\n- oak_wood\n- birch_wood\n- oak_slab\n- chest\n- crafting_table\n- ladder\n- oak_fence\n- oak_stairs\n- oak_button\n- oak_pressure_plate\n- oak_door\n- oak_trapdoor\n- oak_fence_gate\n- oak_boat\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stick\n- oak_sign\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftable* "
+    },
+    {
+        "role": "user",
+        "content": "jill: CRAFTABLE_ITEMS - oak_planks - birch_planks - oak_wood - birch_wood - birch_slab - chest - crafting_table - birch_fence - birch_stairs - birch_button - birch_pressure_plate - birch_door - birch_trapdoor - birch_boat - bowl - wooden_sword - wooden_shovel - "
+    },
+    {
+        "role": "user",
+        "content": "jill: wooden_pickaxe - wooden_axe - wooden_hoe - stick - birch_sign - bone_meal "
+    },
+    {
+        "role": "assistant",
+        "content": "Got my planks list; I'll craft what I have so we can start the shelter.\n\nstocking up! !craftRecipe(\"oak_planks\", 8)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - oak_planks: 32 - birch_planks: 18 - birch_log: 13 - birch_sapling: 7 - arrow: 2 - wooden_sword: 1 - bone: 2 - wheat_seeds: 1 - stick: 3 - oak_sapling: 4 - chest: 1 WEARING: Nothing "
+    },
+    {
+        "role": "user",
+        "content": "jill: building shelter here quick !newAction(\"Clear a 5x5 flat area at current position shelterSpot, build 3-high walls using oak_planks and birch_log corners, leave 1-wide door opening, place roof with birch_planks, place chest inside and torch, put wooden_swor"
+    },
+    {
+        "role": "user",
+        "content": "jill: d and arrows and bones into chest if possible, then stay inside\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 32 oak_planks.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted oak_planks, you now have 32 oak_planks. "
+    },
+    {
+        "role": "assistant",
+        "content": "Stocked planks — checking inventory to plan shelter and weapons.\n\n!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 8\n- birch_sapling: 2\n- dirt: 10\n- birch_log: 4\n- oak_planks: 40\nWEARING: Nothing\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "Going to find you guys and get shelter up — checking surroundings first.\n\n!entities"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "assistant",
+        "content": "!newAction(\"Build a small 5x5 wooden shelter with walls, roof, door opening, and torches near players jill and redapeman using oak_planks in inventory, collect extra wood if needed, then craft a chest and place it inside\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- Human player: jill\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll head over to start the shelter build.\n\nComing to you to build shelter! !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES - Human player: andy - Human player: redapeman "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Error generating code: Error: Andy API status: 429 "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Agent wrote this code: \n```// Inspect available APIs\nconsole.log(\"skills keys: \" + Object.keys(skills).join(\", \"));\nconsole.log(\"world keys: \" + Object.keys(world).join(\", \"));\nconsole.log(\"bot pos: \" + bot.entity.position);\nawait skills.wait(bot, 500);```\nCode Output:\nAction output is very long (1006 chars) and has been shortened.\n\n          First outputs:\nskills keys: activateNearestBlock, attackEntity, attackNearest, avoidEnemies, breakBlockAt, clearNearestFurnace, collectBlock, consume, craftRecipe, defendSelf, digDown, discard, equip, followPlayer, giveToPlayer, goToBed, goToGoal, goToNearestBlock,\n...skipping many lines.\nFinal outputs:\n restBlocks, getNearestBlocksWhere, getNearestEntityWhere, getNearestFreeSpace, getPosition, getSurroundingBlocks, getVillagerProfession, isClearPath, isEntityType, shouldPlaceTorch\nbot pos: (-272.4998237064731, 76, 122.40304159644107)\nCode finished.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: on it, building near us !newAction(\"Step 1 remember current spot near andy and redapeman. Step 2 clear a flat 5x5 area. Step 3 build 3-high walls from oak_planks and birch_planks leaving 1 door opening. Step 4 build a flat roof from planks. Step 5 place th"
+    },
+    {
+        "role": "user",
+        "content": "jill: e chest from inventory inside shelter. Step 6 place torch inside. Step 7 put wooden_sword and arrows into chest.\")"
+    }
+]

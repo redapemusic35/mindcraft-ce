@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -271.57, y: 69.00, z: 66.52\n- Gamemode: survival\n- Health: 15 / 20\n- Hunger: 16 / 20\n- Biome: forest\n- Weather: Clear\n- Time: Night- Current Action: Idle\n- Nearby Human Players: None.\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(ON)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing coal soon, checking what I can make !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- birch_planks\n- oak_wood\n- crafting_table\n- lever\n- oak_button\n- birch_button\n- oak_pressure_plate\n- birch_pressure_plate\n- stick\n- red_dye\n- bone_meal\n"
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!\nFighting zombie!\nPicking up item!\nFighting skeleton!\nPicking up item!\nFighting skeleton!\nPicking up item!"
+    }
+]

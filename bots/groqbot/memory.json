@@ -1,0 +1,45 @@
+{
+  "memory": "My brain disconnected, try again.",
+  "turns": [
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    }
+  ],
+  "self_prompting_state": 0,
+  "self_prompt": null,
+  "taskStart": 1791498614125,
+  "last_sender": "andy"
+}

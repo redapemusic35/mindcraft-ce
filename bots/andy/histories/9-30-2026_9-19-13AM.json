@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "redapeman: are you there?"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah i'm here, at -271 69 66 still fighting through the night"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: how is the house coming along?"
+    },
+    {
+        "role": "assistant",
+        "content": "slow tbh, kept getting jumped by skels at night. got cobble + wood ready tho, gonna build once it's light"
+    },
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    }
+]

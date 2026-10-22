@@ -1,0 +1,106 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 4 oak_planks.\n"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world I'm andy"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: where's jill?"
+    },
+    {
+        "role": "assistant",
+        "content": "she was just here !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- Bot player: jill\n"
+    },
+    {
+        "role": "assistant",
+        "content": "right here with us !lookAtPlayer(\"jill\", \"at\")"
+    },
+    {
+        "role": "system",
+        "content": "Vision is disabled. Use other methods to describe the environment."
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world I'm andy"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: jill will be joining us"
+    },
+    {
+        "role": "assistant",
+        "content": "bet, welcome jill"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: come up top"
+    },
+    {
+        "role": "assistant",
+        "content": "on my way up !goToSurface"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nPathfinding stopped: Cannot break stone with current tools.\nPathfinding stopped: Path was stopped before it could be completed! Thus, the desired goal was not reached..\nGoing to the surface at y=78.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "stuck under stone, crafting a way out !getCraftingPlan(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "\nYou have all items required to craft this item!\nHere's your crafting plan:\n\nCraft 3 oak_planks + 2 stick -> 1 wooden_pickaxe\n"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: I would like you to give jill some commands"
+    },
+    {
+        "role": "assistant",
+        "content": "gotcha, I'll hit up jill !startConversation(\"jill\", \"hey jill follow redapeman and help get to surface\")"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: are you coming up top?"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah crafting a pick to dig out !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-283, 70, 115). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -283, 70, 115.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "yep digging up now !goToSurface"
+    }
+]

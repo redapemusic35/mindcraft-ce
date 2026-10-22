@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"stone\", 12)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 12 stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_planks: 1\n- crafting_table: 1\n- wooden_pickaxe: 1\n- rotten_flesh: 2\n- dark_oak_log: 3\n- dark_oak_sapling: 1\n- arrow: 1\n- oak_log: 2\n- dirt: 2\n- cobblestone: 21\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 1)"
+    }
+]

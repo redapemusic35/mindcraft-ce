@@ -1,0 +1,138 @@
+[
+    {
+        "role": "system",
+        "content": "newAction not allowed! Code writing is disabled in settings. Notify the user."
+    },
+    {
+        "role": "assistant",
+        "content": "can't do the auto-build thing, code stuff's disabled but i'll seal us in with cobble !placeHere(\"cobblestone\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to place cobblestone at (-283, 71, 110).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "that spot's blocked, checking around !nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- dirt\n- oak_door\n- stone\n- grass_block\n- copper_ore\n- short_grass\n- oak_log\n- diorite\n- oak_leaves\n- birch_leaves\n- Block Below: oak_door\n- Block at Legs: air\n- Block at Head: air\n- First Solid Block Above Head: grass_block (0 blocks up)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "shifting a bit to find a spot to wall up !moveAway(2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-283, 72, 108) to (-283, 70, 109).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "sealing it up !placeHere(\"cobblestone\")"
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "back, restarted on me - checking pos !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -282.50, y: 70.00, z: 108.30\n- Gamemode: survival\n- Health: 20 / 20\n- Hunger: 20 / 20\n- Biome: forest\n- Weather: Clear\n- Time: Night- Current Action: Idle\n- Nearby Human Players: redapeman\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "back, coming to you !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: okay, close the door behind you please"
+    },
+    {
+        "role": "assistant",
+        "content": "yep !useOn(\"hand\", \"oak_door\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -283, 70, 108.\nUnequipped hand.\nUsed hand on oak_door.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "done, door's shut"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: do you have any light?"
+    },
+    {
+        "role": "assistant",
+        "content": "got coal, lemme see if i can make torches !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- iron_ingot: 2\n- oak_planks: 1\n- stone_sword: 1\n- cobblestone: 50\n- crafting_table: 1\n- diorite: 15\n- coal: 6\n- oak_log: 1\n- oak_sapling: 2\n- wooden_pickaxe: 1\n- oak_door: 2\n- birch_log: 1\n- stone_pickaxe: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"oak_planks\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 5 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stick\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 4 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"torch\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted torch, you now have 8 torch.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "yeah made 8, lighting up !placeHere(\"torch\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have any torch to place.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- torch: 4\n- coal: 5\n- stick: 3\n- iron_ingot: 2\n- oak_planks: 3\n- stone_sword: 1\n- cobblestone: 50\n- crafting_table: 1\n- diorite: 15\n- oak_sapling: 2\n- wooden_pickaxe: 1\n- oak_door: 2\n- birch_log: 1\n- stone_pickaxe: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "weird, equipping first !equip(\"torch\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped torch.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!placeHere(\"torch\")"
+    }
+]

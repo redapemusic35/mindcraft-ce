@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Agent Modes:\n- self_preservation(ON): Respond to drowning, burning, and damage at low health. Interrupts all actions.\n- unstuck(ON): Attempt to get unstuck when in the same place for a while. Interrupts some actions.\n- cowardice(OFF): Run away from enemies. Interrupts all actions.\n- self_defense(ON): Attack nearby enemies. Interrupts all actions.\n- hunting(OFF): Hunt nearby animals when idle.\n- item_collecting(ON): Collect nearby items when idle.\n- torch_placing(ON): Place torches when idle and there are no torches nearby.\n- elbow_room(ON): Move away from nearby players when idle.\n- idle_staring(ON): Animation to look around at entities when idle.\n- cheat(OFF): Use cheats to instantly place blocks and teleport."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Fighting zombie!\nFighting skeleton!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -303.44, y: 71.00, z: 174.59 in the overworld dimension with the final message: 'llama_local was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: I'm dying!\nFighting zombie!\nI'm dying!\n\nRespond accordingly."
+    }
+]

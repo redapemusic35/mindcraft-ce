@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "role": "user",
+        "content": "redapeman: I am crafting stone tools"
+    },
+    {
+        "role": "assistant",
+        "content": "nice, I'll grab wood !collectBlocks(\"oak_log\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect oak_log: Error: Digging aborted.\nFailed to collect oak_log: Error: Digging aborted.\nFailed to collect oak_log: Error: Digging aborted.\nCollected 2 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got the wood—checking recipes to pitch in.\n\n!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- birch_planks\n- lever\n- stone_shovel\n"
+    },
+    {
+        "role": "assistant",
+        "content": "sweet, making planks to help out !craftRecipe(\"oak_planks\", 1)"
+    }
+]

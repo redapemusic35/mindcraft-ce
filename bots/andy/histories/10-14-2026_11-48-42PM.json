@@ -1,0 +1,114 @@
+[
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "groqbot: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+        "role": "user",
+        "content": "monpere7963: come up andy"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -282.40, y: 69.91, z: 107.51 in the overworld dimension with the final message: 'andy was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Fighting skeleton!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -286.55, y: 77.00, z: 126.52 in the overworld dimension with the final message: 'andy was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Fighting skeleton!\nPicking up item!\nFighting zombie!\nFighting zombie!\nPicking up item!\nFighting zombie!\nPicking up item!\nFighting skeleton!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm back, monpere7963. !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -266.55, y: 71.00, z: 109.63\n- Gamemode: survival\n- Health: 3 / 20\n- Hunger: 13 / 20\n- Biome: forest\n- Weather: Thunderstorm\n- Time: Night- Current Action: Idle\n- Nearby Human Players: None.\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I’m alive, but low on health—getting clear of the mobs. !moveAway(20)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nMoved away from (-267, 71, 109) to (-261, 76, 128).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I made it clear of the mobs. I’m still at critical health, so I’m keeping out of danger."
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -260.50, y: 76.00, z: 128.60 in the overworld dimension with the final message: 'andy was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "I’ll get away from the skeletons. !moveAway(30)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:moveAway' was interrupted by self_defense.\n        Your behavior log: I'm dying!\nFighting skeleton!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "I’m respawning under fire—turning off combat so I can escape. !setMode(\"self_defense\", false)"
+    },
+    {
+        "role": "system",
+        "content": "Mode self_defense is now off."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted furnace, you now have 1 furnace.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"iron_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted iron_pickaxe, you now have 1 iron_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got iron pick, equipping to gear up for diamonds !equip(\"iron_pickaxe\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped iron_pickaxe.\n"
+    }
+]

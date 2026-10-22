@@ -1,0 +1,26 @@
+[
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)hey jill follow redapeman and help get to surface"
+    },
+    {
+        "role": "assistant",
+        "content": "got it, following! !followPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: please go help andy. Ask him what he needs help with."
+    },
+    {
+        "role": "assistant",
+        "content": "on my way to andy! !goToPlayer(\"andy\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached andy.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!startConversation(\"andy\", \"hey andy, what do you need help with?\")"
+    }
+]

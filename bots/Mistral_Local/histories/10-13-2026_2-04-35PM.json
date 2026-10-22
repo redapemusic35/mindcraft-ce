@@ -1,0 +1,222 @@
+[
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:item_collecting' was interrupted by unstuck.\n        Your behavior log: Fighting skeleton!\nPicking up item!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: Hey!"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\n\nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:elbow_room' was interrupted by self_defense.\n        Your behavior log: Fighting creeper!\n\nRespond accordingly."
+    }
+]

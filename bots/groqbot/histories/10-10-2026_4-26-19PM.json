@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm stuck!"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

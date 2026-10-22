@@ -1,0 +1,26 @@
+[
+    {
+        "role": "user",
+        "content": "redapeman: hello"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "user",
+        "content": "redapeman: Yo all"
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    }
+]

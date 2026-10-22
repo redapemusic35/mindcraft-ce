@@ -1,0 +1,234 @@
+[
+    {
+        "role": "user",
+        "content": "jill: Action output: Not enough birch_log to craft 7, crafted 3. You now have 16 birch_planks. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: got it, building our shelter now!  got it building shelter right here for us! !newAction(\"Build a small 5x5 shelter near current position. Steps: 1. Find nearby flat grass_block/dirt clearing within 10 blocks. 2. Clear area. 3. Build floor with birch_plank"
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: s if enough else dirt. 4. Build 4 walls 3 blocks high using birch_planks and oak_log and dirt. Leave 2-high doorway. 5. Build flat roof with birch_planks. 6. Place the chest from inventory inside shelter with placeHere. 7. Report done.\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Command !newAction was given 0 args, but requires 1 args."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used newAction* "
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll get oriented and work toward shelter with weapons chest.\n\nhey, back online - checking surroundings. !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- Human player: jill\n"
+    },
+    {
+        "role": "assistant",
+        "content": "hey back, gonna get that shelter started near you guys !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)I'll get oriented and work toward shelter with weapons chest.\n\nhey, back online - checking surroundings. !entities"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES - Human player: andy - Human player: redapeman "
+    },
+    {
+        "role": "assistant",
+        "content": "Back online near you — I'll check what I can craft for shelter and weapons.\n\n!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- birch_planks\n- birch_slab\n- chest\n- crafting_table\n- birch_fence\n- birch_stairs\n- birch_button\n- birch_pressure_plate\n- birch_door\n- birch_trapdoor\n- birch_boat\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stick\n- birch_sign\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftable* "
+    },
+    {
+        "role": "user",
+        "content": "jill: CRAFTABLE_ITEMS - oak_planks - birch_slab - chest - crafting_table - birch_fence - birch_stairs - birch_button - birch_pressure_plate - birch_door - birch_trapdoor - birch_boat - bowl - wooden_sword - wooden_shovel - wooden_pickaxe - wooden_axe - wooden_ho"
+    },
+    {
+        "role": "user",
+        "content": "jill: e - stick - birch_sign "
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)Back online near you — I'll check what I can craft for shelter and weapons.\n\n!craftable"
+    },
+    {
+        "role": "assistant",
+        "content": "Heading over to build near you.\n\non it, heading over to start the shelter !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, making swords for the chest !craftRecipe(\"wooden_sword\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Found crafting_table at (-260, 76, 137). Navigating... Found non-destructive path. You have reached at -260, 76, 137. Successfully crafted wooden_sword, you now have 1 wooden_sword. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-260, 76, 137). Navigating...\nFound non-destructive path.\nYou have reached at -260, 76, 137.\nSuccessfully crafted wooden_sword, you now have 1 wooden_sword.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Checking inventory so I can stock that chest.\n\n!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 2\n- wooden_sword: 1\n- rotten_flesh: 1\n- string: 1\n- birch_sapling: 2\n- chest: 1\n- birch_log: 3\n- birch_planks: 26\nWEARING: Nothing\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - stick: 1 - wooden_sword: 1 - birch_planks: 10 - oak_sapling: 1 - oak_log: 3 - dirt: 1 - chest: 1 - birch_sapling: 1 WEARING: Nothing "
+    },
+    {
+        "role": "assistant",
+        "content": "Gathering more wood for the shelter build.\n\ngathering wood for shelter !collectBlocks(\"birch_log\", 15)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "assistant",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by self_defense.\n        Your behavior log: Fighting zombie!\n\nRespond accordingly."
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "assistant",
+        "content": "Equipping a weapon to help fight the zombie.\n\non it, helping with that zombie !equip(\"wooden_sword\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nEquipped wooden_sword.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used equip* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Equipped wooden_sword. "
+    },
+    {
+        "role": "assistant",
+        "content": "got you, jumping in !attack(\"zombie\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCould not find any zombie to attack.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Could not find any zombie to attack. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]

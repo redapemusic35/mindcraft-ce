@@ -1,0 +1,418 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nCould not find any zombie to attack.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Exiting."
+    },
+    {
+        "role": "assistant",
+        "content": "later jill, gg"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Fighting spider!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm dying! "
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:attack' was interrupted by self_defense.\n        Your behavior log: \nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "i got u !attack(\"zombie\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -289.30, y: 65.00, z: 83.91 in the overworld dimension with the final message: 'andy was slain by Spider'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    },
+    {
+        "role": "assistant",
+        "content": "back, died lol !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -276.50, y: 81.00, z: 119.50\n- Gamemode: survival\n- Health: 20 / 20\n- Hunger: 20 / 20\n- Biome: forest\n- Weather: Clear\n- Time: Night- Current Action: Idle\n- Nearby Human Players: redapeman, jill\n- Nearby Bot Players: None.\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(OFF)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used stats* "
+    },
+    {
+        "role": "user",
+        "content": "jill: STATS - Position: x: -266.50, y: 71.00, z: 108.50 - Gamemode: survival - Health: 20 / 20 - Hunger: 20 / 20 - Biome: forest - Weather: Clear - Time: Night- Current Action: Idle - Nearby Human Players: redapeman, andy - Nearby Bot Players: None. Agent Modes:"
+    },
+    {
+        "role": "user",
+        "content": "jill:  - self_preservation(ON) - unstuck(ON) - cowardice(OFF) - self_defense(ON) - hunting(OFF) - item_collecting(ON) - torch_placing(ON) - elbow_room(ON) - idle_staring(ON) - cheat(OFF) "
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)back, died lol !stats"
+    },
+    {
+        "role": "assistant",
+        "content": "spider got me lol, back now"
+    },
+    {
+        "role": "assistant",
+        "content": "coming over !goToPlayer(\"jill\", 2)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: lol gg, wb "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "assistant",
+        "content": "got u! !attack(\"zombie\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting zombie! "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting zombie!"
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting spider!"
+    },
+    {
+        "role": "assistant",
+        "content": "trying again! !attack(\"zombie\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Could not find any zombie to attack. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCould not find any zombie to attack.\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Fighting spider! "
+    },
+    {
+        "role": "assistant",
+        "content": "clear, going for spider now! !attack(\"spider\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Could not find any spider to attack. "
+    },
+    {
+        "role": "assistant",
+        "content": "coming to help! !searchForEntity(\"spider\", 32)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used searchForEntity* "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound spider 15.912369032221255 blocks away.\nPath not found, but attempting to navigate anyway using destructive movements.\nPathfinding stopped: Cannot break stone with current tools.\nPathfinding stopped: Path was stopped before it could be completed! Thus, the desired goal was not reached..\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Found spider 11.085588837317722 blocks away. Path not found, but attempting to navigate anyway using destructive movements. Pathfinding stopped: Cannot break stone with current tools. Pathfinding stopped: Path was stopped before it could be "
+    },
+    {
+        "role": "user",
+        "content": "jill: completed! Thus, the desired goal was not reached.. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "user",
+        "content": "jill: Picking up item! "
+    },
+    {
+        "role": "user",
+        "content": "redapeman: is it daytime yet?"
+    },
+    {
+        "role": "assistant",
+        "content": "nah still night n rainy lol !followPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used followPlayer* "
+    },
+    {
+        "role": "assistant",
+        "content": "got you, on that spider !attack(\"spider\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used attack* "
+    },
+    {
+        "role": "user",
+        "content": "redapeman: please let me know when it is day"
+    },
+    {
+        "role": "user",
+        "content": "jill: yo redapeman it's morning already! "
+    },
+    {
+        "role": "assistant",
+        "content": "yep it's morning redapeman"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: new goal, builld a shelter and gather some weapons and put those into a chest."
+    },
+    {
+        "role": "assistant",
+        "content": "Bet, shelter + weapons chest coming up.\n\nbet, shelter + weapons chest coming up !goal(\"Build a shelter near jill and redapeman and gather weapons into a chest\")"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goal* "
+    },
+    {
+        "role": "assistant",
+        "content": "On it — shelter and weapons chest coming up, starting with materials.\n\non it, grabbing wood first !entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: jill\n- Human player: redapeman\n- entities: 1 spider(s)\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used entities* "
+    },
+    {
+        "role": "user",
+        "content": "jill: NEARBY_ENTITIES - Human player: andy - Human player: redapeman - entities: 1 spider(s) - entities: 1 creeper(s) "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "On my way, I'll start gathering for the shelter and weapons chest.\n\ncoming over to start the shelter !goToPlayer(\"jill\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing wood for the shelter !collectBlocks(\"birch_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached jill.\n"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect birch_log: Timeout: Took to long to decide path to goal!.\nFailed to collect birch_log: Error: Digging aborted.\nFailed to collect birch_log: Error: Digging aborted.\nCollected 7 birch_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got wood, checking what I've got to build with.\n\n!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- rotten_flesh: 1\n- string: 1\n- birch_log: 8\nWEARING: Nothing\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - birch_log: 1 WEARING: Nothing "
+    },
+    {
+        "role": "assistant",
+        "content": "I've got some wood — checking what I can craft next for the build.\n\n!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- birch_planks\n- birch_wood\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftable* "
+    },
+    {
+        "role": "user",
+        "content": "jill: CRAFTABLE_ITEMS - birch_planks "
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm stuck! "
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm free. "
+    },
+    {
+        "role": "assistant",
+        "content": "Gathered wood — crafting supplies for your shelter.\n\n!craftRecipe(\"birch_planks\", 2)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used craftRecipe* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: Not enough birch_log to craft 2, crafted 1. You now have 4 birch_planks. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted birch_planks, you now have 8 birch_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got wood covered — grabbing more for the shelter and blades.\n\nGot wood, grabbing more for the shelter! !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "assistant",
+        "content": "Gathering the timber for your shelter.\n\n!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- birch_planks: 8\n- rotten_flesh: 1\n- string: 1\n- birch_log: 6\n- dirt: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used inventory* "
+    },
+    {
+        "role": "user",
+        "content": "jill: INVENTORY - birch_planks: 4 - stick: 2 - oak_sapling: 1 WEARING: Nothing "
+    },
+    {
+        "role": "user",
+        "content": "jill: My brain disconnected, try again. "
+    },
+    {
+        "role": "assistant",
+        "content": "On my way to you to start the shelter — checking supplies now.\n\n!goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got it — building you a shelter and stocking weapons.\n\n!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- birch_planks\n- birch_wood\n- birch_slab\n- chest\n- crafting_table\n- birch_stairs\n- birch_button\n- birch_pressure_plate\n- birch_door\n- birch_trapdoor\n- birch_boat\n- bowl\n- stick\n"
+    }
+]

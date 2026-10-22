@@ -1,0 +1,46 @@
+[
+    {
+        "role": "user",
+        "content": "jill: Action output: Successfully crafted stone_sword, you now have 1 stone_sword. "
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "jill: I'm dying! "
+    },
+    {
+        "role": "assistant",
+        "content": "coming jill! !goToPlayer(\"jill\", 2)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used goToPlayer* "
+    },
+    {
+        "role": "user",
+        "content": "jill: Action output: You are already at jill. "
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\n!!Code threw exception!!\nError: Timeout: Took to long to decide path to goal!\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -277.33, y: 28.00, z: 134.30 in the overworld dimension with the final message: 'andy was doomed to fall by Zombie'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "assistant",
+        "content": "(FROM OTHER BOT)You have restarted and this message is auto-generated. Continue the conversation with me."
+    }
+]

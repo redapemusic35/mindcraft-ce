@@ -1,0 +1,61 @@
+{
+  "memory": "My brain disconnected, try again.",
+  "turns": [
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    },
+    {
+      "role": "assistant",
+      "content": "My brain disconnected, try again."
+    },
+    {
+      "role": "user",
+      "content": "jill: My brain disconnected, try again. "
+    }
+  ],
+  "self_prompting_state": 0,
+  "self_prompt": null,
+  "taskStart": 1791497727324,
+  "last_sender": null
+}

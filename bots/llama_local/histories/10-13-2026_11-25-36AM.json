@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "!self_defense"
+    },
+    {
+        "role": "system",
+        "content": "Command !self_defense does not exist."
+    },
+    {
+        "role": "assistant",
+        "content": "!modes"
+    }
+]

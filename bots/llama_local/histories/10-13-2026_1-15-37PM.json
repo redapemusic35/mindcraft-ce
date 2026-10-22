@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Disconnected from MindServer. Killing agent process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "user",
+        "content": "monpere7963: how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm good, thanks for asking. Just a bit shaken from a fight with a phantom earlier."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting phantom!\nI'm dying!\nFighting zombie!\nI'm dying!"
+    }
+]

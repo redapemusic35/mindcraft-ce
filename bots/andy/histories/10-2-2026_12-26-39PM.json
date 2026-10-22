@@ -1,0 +1,430 @@
+[
+    {
+        "role": "system",
+        "content": "You died at position x: -279.51, y: 52.00, z: 102.21 in the overworld dimension with the final message: 'andy was blown up by Creeper'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: you got this!"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "back, that creeper got me lol, coming to you !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!\nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "morning, grabbing wood to get us geared !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: are you stuck?"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world I'm andy, nah not stuck coming now !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached redapeman.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "on my way, let's gear up !inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- arrow: 2\n- bone: 1\n- oak_log: 3\n- dirt: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- bone_meal\n"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "got 3 logs, making planks to get tools going !craftRecipe(\"oak_planks\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 4 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "need more wood, grabbing some !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect oak_log: Timeout: Took to long to decide path to goal!.\nCollected 9 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "craft check !craftable"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "crafting up for tools !craftRecipe(\"oak_planks\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 12 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 12\n- arrow: 2\n- bone: 1\n- oak_planks: 16\n- oak_sapling: 2\n- stick: 2\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n- oak_slab\n- chest\n- crafting_table\n- oak_fence\n- oak_stairs\n- oak_button\n- oak_pressure_plate\n- oak_door\n- oak_trapdoor\n- oak_boat\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stick\n- oak_sign\n- bone_meal\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got wood, making table then tools !craftRecipe(\"crafting_table\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted crafting_table, you now have 1 crafting_table.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stick\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 6 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-282, 76, 97). Navigating...\nFound non-destructive path.\nYou have reached at -282, 76, 97.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing stone for stone tools !collectBlocks(\"stone\", 15)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!\nFighting skeleton!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "on it, handling skelly then back to stone tools !attack(\"skeleton\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCould not find any skeleton to attack.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!entities"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_ENTITIES\n- Human player: redapeman\n- Bot player: jill\n- entities: 1 bat(s)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "checking stone nearby !nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- dirt\n- torch\n- coal_ore\n- stone\n- diorite\n- gravel\n- glow_lichen\n- Block Below: dirt\n- Block at Legs: air\n- Block at Head: air\n- First Solid Block Above Head: stone (1 blocks up)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing stone for upgrades !collectBlocks(\"stone\", 15)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 15 stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- stick: 8\n- oak_log: 12\n- dirt: 2\n- arrow: 4\n- bone: 2\n- apple: 1\n- wooden_pickaxe: 1\n- cobblestone: 25\n- oak_sapling: 4\n- oak_planks: 5\n- crafting_table: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "what can i make? !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n- oak_slab\n- cobblestone_slab\n- crafting_table\n- furnace\n- ladder\n- cobblestone_stairs\n- oak_fence\n- cobblestone_wall\n- lever\n- oak_button\n- oak_pressure_plate\n- oak_fence_gate\n- oak_boat\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stone_sword\n- stone_shovel\n- stone_pickaxe\n- stone_axe\n- stone_hoe\n- stick\n- bone_meal\n"
+    },
+    {
+        "role": "assistant",
+        "content": "crafting stone gear !craftRecipe(\"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-282, 76, 97). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached at -282, 76, 97.\nSuccessfully crafted stone_pickaxe, you now have 1 stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got pick, grabbing sword next !craftRecipe(\"stone_sword\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-282, 76, 97). Navigating...\nFound non-destructive path.\nYou have reached at -282, 76, 97.\nSuccessfully crafted stone_sword, you now have 1 stone_sword.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "No response data."
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "furnace time !craftRecipe(\"furnace\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-282, 76, 97). Navigating...\nFound non-destructive path.\nYou have reached at -282, 76, 97.\nSuccessfully crafted furnace, you now have 1 furnace.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "grabbing some coal for torches n smelting !collectBlocks(\"coal_ore\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nCollected 5 coal_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- dirt: 1\n- cobblestone: 10\n- oak_log: 12\n- stone_sword: 1\n- furnace: 1\n- coal: 5\n- stick: 5\n- arrow: 4\n- bone: 2\n- apple: 1\n- wooden_pickaxe: 1\n- stone_pickaxe: 1\n- oak_sapling: 4\n- oak_planks: 5\n- crafting_table: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "staying safe from that enderman, keeping geared !setMode(\"cowardice\", true)"
+    },
+    {
+        "role": "system",
+        "content": "Mode cowardice is now on."
+    },
+    {
+        "role": "assistant",
+        "content": "got coal, making torches to keep caving !craftRecipe(\"torch\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted torch, you now have 4 torch.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "need iron for diamond pick, grabbing some !collectBlocks(\"iron_ore\", 8)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFailed to collect iron_ore: Timeout: Took to long to decide path to goal!.\nFailed to collect iron_ore: Timeout: Took to long to decide path to goal!.\nFailed to collect iron_ore: Error: Digging aborted.\nFailed to collect iron_ore: Error: Digging aborted.\nFailed to collect iron_ore: Error: Digging aborted.\nFailed to collect iron_ore: Error: Digging aborted.\nFailed to collect iron_ore: Error: Digging aborted.\nFailed to collect iron_ore: Error: Digging aborted.\nCollected 0 iron_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForBlock(\"iron_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "keeping moving, checking surroundings !nearbyBlocks"
+    },
+    {
+        "role": "system",
+        "content": "\nNEARBY_BLOCKS\n- torch\n- stone\n- granite\n- coal_ore\n- copper_ore\n- dirt\n- grass_block\n- lapis_ore\n- oak_leaves\n- Block Below: stone\n- Block at Legs: torch\n- Block at Head: air\n- First Solid Block Above Head: stone (1 blocks up)\n"
+    },
+    {
+        "role": "assistant",
+        "content": "heading deeper to find iron for gear !searchForBlock(\"iron_ore\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound iron_ore at (-283, 49, 86). Navigating...\nPath not found, but attempting to navigate anyway using destructive movements.\nPathfinding stopped: Took to long to decide path to goal!.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!goToCoordinates(-283, 49, 86, 2)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nPicking up item!\nAaa! A skeleton!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -279.50, y: 47.00, z: 45.11 in the overworld dimension with the final message: 'andy was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "hangin in the cave, checking what's around me !entities"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nAaa! A creeper!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "respawned, re-gearing quick !stats"
+    },
+    {
+        "role": "system",
+        "content": "\nSTATS\n- Position: x: -266.43, y: 75.00, z: 116.42\n- Gamemode: survival\n- Health: 20 / 20\n- Hunger: 20 / 20\n- Biome: forest\n- Weather: Clear\n- Time: Night- Current Action: Idle\n- Nearby Human Players: redapeman\n- Nearby Bot Players: jill\nAgent Modes:\n- self_preservation(ON)\n- unstuck(ON)\n- cowardice(ON)\n- self_defense(ON)\n- hunting(OFF)\n- item_collecting(ON)\n- torch_placing(ON)\n- elbow_room(ON)\n- idle_staring(ON)\n- cheat(OFF)\n\n"
+    },
+    {
+        "role": "assistant",
+        "content": "back at spawn, grabbing wood to re-gear !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nAaa! A zombie!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "died to skelly, regrouping quick !goToPlayer(\"redapeman\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nAaa! A zombie!"
+    },
+    {
+        "role": "system",
+        "content": "You are self-prompting with the goal: 'Beat the ender dragon whatever it takes - get wood/tools, gear up, mine diamonds, go nether, get blaze/pearls, find stronghold, kill dragon with redapeman'. Your next response MUST contain a command with this syntax: !commandName. Respond:"
+    },
+    {
+        "role": "assistant",
+        "content": "night's rough, re-gearing from scratch !craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- oak_planks\n- oak_wood\n"
+    },
+    {
+        "role": "assistant",
+        "content": "got wood, making planks to reboot tools !craftRecipe(\"oak_planks\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 8 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!inventory"
+    },
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- oak_log: 5\n- oak_planks: 8\n- oak_sapling: 1\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!getCraftingPlan(\"stick\", 4)"
+    }
+]

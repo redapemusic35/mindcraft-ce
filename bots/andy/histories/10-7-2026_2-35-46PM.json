@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted oak_planks, you now have 8 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got planks ready – now I'll collect more wood and set up our shelter.\n\ngot some planks, grabbing more wood now !collectBlocks(\"oak_log\", 15)"
+    },
+    {
+        "role": "user",
+        "content": "jill: *andy used collectBlocks* "
+    },
+    {
+        "role": "user",
+        "content": "jill:  !newAction(\"Build a small 5x5 wooden shelter at my current position using birch_planks and logs, place crafting table and chest inside, then put wooden_sword and arrows into chest\")"
+    },
+    {
+        "role": "assistant",
+        "content": "building a little shelter by you guys now !newAction(\"Build a 5x5 shelter near Jill and redapeman. Steps: 1. Find flat ground within 10 blocks of current position. 2. Clear a 5x5 area. 3. Build 3-high walls using oak_planks oak_log and dirt, leave 1 door gap. 4. Add plank roof to enclose. 5. Place torch inside if you have coal and sticks. 6. Stay near Jill the whole time.\")"
+    }
+]

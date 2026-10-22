@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "\nINVENTORY\n- iron_ingot: 5\n- coal: 7\n- stick: 6\n- cobblestone: 41\n- wooden_pickaxe: 1\n- oak_sapling: 1\n- stone_pickaxe: 1\n- dirt: 3\n- oak_log: 3\n- oak_planks: 3\n- andesite: 5\n- crafting_table: 1\n- torch: 6\nWEARING: Nothing\n"
+    },
+    {
+        "role": "assistant",
+        "content": "gearing up !placeHere(\"crafting_table\")"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPlaced crafting_table at (-312, 48, 84).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftable"
+    },
+    {
+        "role": "system",
+        "content": "\nCRAFTABLE_ITEMS\n- polished_andesite\n- oak_planks\n- oak_slab\n- cobblestone_slab\n- torch\n- furnace\n- cobblestone_stairs\n- cobblestone_wall\n- andesite_slab\n- lever\n- tripwire_hook\n- oak_button\n- heavy_weighted_pressure_plate\n- oak_pressure_plate\n- iron_trapdoor\n- oak_fence_gate\n- minecart\n- bowl\n- wooden_sword\n- wooden_shovel\n- wooden_pickaxe\n- wooden_axe\n- wooden_hoe\n- stone_sword\n- stone_shovel\n- stone_pickaxe\n- stone_axe\n- stone_hoe\n- iron_sword\n- iron_shovel\n- iron_pickaxe\n- iron_axe\n- iron_hoe\n- stick\n- iron_helmet\n- iron_boots\n- bucket\n- shears\n- iron_nugget\n- campfire\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"furnace\", 1)"
+    }
+]

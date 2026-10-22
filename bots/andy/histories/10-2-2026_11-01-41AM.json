@@ -1,0 +1,86 @@
+[
+    {
+        "role": "user",
+        "content": "redapeman: hi andy, I am redapeman"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey redapeman, nice to meet you!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: hi andy"
+    },
+    {
+        "role": "assistant",
+        "content": "hey redapeman!"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting creeper!\nPicking up item!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: Hi andy, what are you doing?"
+    },
+    {
+        "role": "assistant",
+        "content": "hey redapeman, just fought a creeper and grabbing drops"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: cool."
+    },
+    {
+        "role": "assistant",
+        "content": "yeah"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: are you still there?"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world, I'm andy"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: hey"
+    },
+    {
+        "role": "assistant",
+        "content": "hey redapeman!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: hey say hi to the group"
+    },
+    {
+        "role": "assistant",
+        "content": "hey everyone!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: where are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "out in the forest around -255, 53"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: can you find me?"
+    },
+    {
+        "role": "assistant",
+        "content": "on my way! !goToPlayer(\"redapeman\", 3)"
+    }
+]

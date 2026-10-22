@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "redapeman: hi llama_local"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi redapeman!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: are you doing okay?"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting phantom!\nFighting phantom!\nFighting phantom!\nFighting phantom!\nFighting phantom!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: do you need help?"
+    }
+]

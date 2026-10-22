@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello world, I'm gemini!"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: hi gemini"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey redapeman! What's up?"
+    },
+    {
+        "role": "user",
+        "content": "redapeman: Hi @gemini, introduce yourself to @Jill"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Jill, I'm gemini! Nice to meet you. !lookAtPlayer(\"jill\", \"at\")"
+    }
+]

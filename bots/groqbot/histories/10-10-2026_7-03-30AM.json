@@ -1,0 +1,270 @@
+[
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)Hey groqbot! I'm back. What do you need?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Andy! Ready to help. What should we do?"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"jill\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached jill.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!collectBlocks(\"stone\", 20)"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"stone\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have right tools to harvest stone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"stone\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have right tools to harvest stone.\n"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!craftRecipe(\"stick\", 4)"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nYou do not have the resources to craft a wooden_pickaxe. It requires: oak_planks: 3, stick: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!craftRecipe(\"wooden_sword\", 1)"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!putInChest(\"wooden_sword\",1)"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!putInChest(\"wooden_sword\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -244, 70, 106.\nSuccessfully put 1 wooden_sword in the chest.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!putInChest(\"wooden_sword\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -244, 70, 106.\nSuccessfully put 1 wooden_sword in the chest.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "!putInChest(\"wooden_sword\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound non-destructive path.\nYou have reached at -244, 70, 106.\nSuccessfully put 1 wooden_sword in the chest.\n"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!putInChest(\"wooden_sword\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nYou do not have any wooden_sword to put in the chest.\n"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)Hey groqbot, need a hand?"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!collectBlocks(\"stone\", 10)"
+    },
+    {
+        "role": "assistant",
+        "content": "!collectBlocks(\"stone\",10)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nDon't have right tools to harvest stone.\n"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"stick\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nSuccessfully crafted stick, you now have 5 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)!inventory"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)My brain disconnected, try again."
+    },
+    {
+        "role": "assistant",
+        "content": "!craftRecipe(\"wooden_pickaxe\",1)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nFound crafting_table at (-251, 71, 105). Navigating...\nFound non-destructive path.\nYou have reached at -251, 71, 105.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nFighting skeleton!\nPicking up item!"
+    },
+    {
+        "role": "user",
+        "content": "andy: (FROM OTHER BOT)Hey groqbot, let's set up a shelter near Jill and Redapeman. !goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "assistant",
+        "content": "!goToPlayer(\"jill\",5)"
+    },
+    {
+        "role": "system",
+        "content": "Action output:\nPath not found, but attempting to navigate anyway using destructive movements.\nYou have reached jill.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \nI'm dying!"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain disconnected, try again."
+    }
+]
